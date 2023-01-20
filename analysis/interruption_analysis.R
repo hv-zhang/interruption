@@ -1,5 +1,13 @@
 library("tidyverse")
 library("cowplot")
+library("broom")
+
+theme_Elm <- function(){ 
+  theme(
+    axis.ticks.length=unit(-0.15, "cm"),
+    axis.text = element_text(color = "black")
+  )
+}
 
 cg_interruption_long = read.csv("../data/cg_interruption_long.csv")
 
@@ -17,28 +25,34 @@ p1 <- ggplot(cg_interruption_long, aes(month, proportion)) +
   geom_point(aes(month), color="navyblue",size = 5) +
   labs(y = str_wrap("Proportion of infant vocalizations interrupted by caregiver",36),
        x = "") +
-  theme_classic(12)
-/Users/stevenelmlinger/Library/CloudStorage/Dropbox/Cornell/Fall_2022/projects/Sequence Compression/pre-processing/generate_variables.ipynb
+  theme_classic(12) +
+  theme_Elm()
 p1
 
 # t test
 model1 <- t.test(proportion ~ month, data = cg_interruption_long, paired = TRUE)
-model1
+tidy(model1)
 
 # ---- total caregiver interruption time 
 
+# significance marker
+label.p2 <- data.frame(month=1.5,duration = 4)
+
+# plot
 p2 <- ggplot(cg_interruption_long, aes(month, duration)) +
   geom_line(aes(group = sub), color="black", size = 1, alpha = .35) +
   geom_point(aes(month), color="navyblue",size = 5) +
   labs(y = "Total duration of caregivers interruptions (s)",
        x = "") +
-  theme_classic(12)
+  geom_text(data = label.p2, label = "**",size=8) +
+  theme_classic(12) +
+  theme_Elm()
 
 p2
 
 # t test
 model2 <- t.test(duration ~ month, data = cg_interruption_long, paired = TRUE)
-model2
+tidy(model2)
 
 # ---- proportion of infant vocalizations which interrupted caregiver
 
@@ -50,13 +64,14 @@ p3 <- ggplot(inf_interruption_long, aes(month, proportion)) +
   geom_point(aes(month), color="navyblue",size = 5) +
   labs(y = str_wrap("Proportion of infant vocalizations that interrupted caregiver",36),
        x = "Infant age") +
-  theme_classic(12)
+  theme_classic(12) +
+  theme_Elm()
 
 p3
 
 # t test
 model3 <- t.test(proportion ~ month, data = inf_interruption_long, paired = TRUE)
-model3
+tidy(model3)
 
 # ---- total infant interruption time 
 
@@ -65,7 +80,8 @@ p4 <- ggplot(inf_interruption_long, aes(month, duration)) +
   geom_point(aes(month), color="navyblue",size = 5) +
   labs(y = "Total duration of infant interruptions of caregiver (s)",
        x = "Infant age") +
-  theme_classic(12)
+  theme_classic(12) +
+  theme_Elm()
 
 p4
 
@@ -84,7 +100,9 @@ p5 <- ggplot(overall_interruption_long, aes(month, duration)) +
   labs(title = "Overall interruption duration",
        y = "Total interruption time overall (s)",
        x = "Infant age") +
-  theme_classic(12)
+  theme_classic(12) +
+  theme_Elm() +
+  theme(plot.title = element_text(face="bold"))
 
 p5
 
