@@ -20,14 +20,25 @@ overall_interruption_long = read.csv("../data/overall_interruption_long.csv")
 cg_interruption_long$month [cg_interruption_long$month == 5] <- "Five"
 cg_interruption_long$month [cg_interruption_long$month == 10] <- "Ten"
 
+# significance marker
+label.p1 <- data.frame(month=1.5, proportion = .35)
+
 p1 <- ggplot(cg_interruption_long, aes(month, proportion)) +
   geom_line(aes(group = sub), color="black", size = 1, alpha = .35) +
-  geom_point(aes(month), color="navyblue",size = 5) +
+  geom_point(aes(month), color="navyblue",size = 4) +
   labs(y = str_wrap("Proportion of infant vocalizations interrupted by caregiver",36),
        x = "") +
+  coord_cartesian(ylim(0, .6)) +
+  geom_text(data = label.p1, label = "*",size=8) +
   theme_classic(12) +
   theme_Elm()
 p1
+
+## dirty outlier check:
+# cg_interruption_long %>%
+#   filter(month == "Five") %>%
+#   ggplot(aes(y=duration)) +
+#     geom_boxplot()
 
 # t test
 model1 <- t.test(proportion ~ month, data = cg_interruption_long, paired = TRUE)
@@ -35,16 +46,15 @@ tidy(model1)
 
 # ---- total caregiver interruption time 
 
-# significance marker
-label.p2 <- data.frame(month=1.5,duration = 4)
+
 
 # plot
 p2 <- ggplot(cg_interruption_long, aes(month, duration)) +
   geom_line(aes(group = sub), color="black", size = 1, alpha = .35) +
   geom_point(aes(month), color="navyblue",size = 5) +
+  coord_flip(ylim = c(0,300)) +
   labs(y = "Total duration of caregivers interruptions (s)",
        x = "") +
-  geom_text(data = label.p2, label = "**",size=8) +
   theme_classic(12) +
   theme_Elm()
 
@@ -59,11 +69,16 @@ tidy(model2)
 inf_interruption_long$month [inf_interruption_long$month == 5] <- "Five"
 inf_interruption_long$month [inf_interruption_long$month == 10] <- "Ten"
 
+# significance marker
+label.p3 <- data.frame(month=1.5, proportion = .6)
+
 p3 <- ggplot(inf_interruption_long, aes(month, proportion)) +
   geom_line(aes(group = sub), color="black", size = 1, alpha = .35) +
   geom_point(aes(month), color="navyblue",size = 5) +
   labs(y = str_wrap("Proportion of infant vocalizations that interrupted caregiver",36),
        x = "Infant age") +
+  coord_cartesian(ylim(0, .6)) +
+  geom_text(data = label.p3, label = "***",size=8) +
   theme_classic(12) +
   theme_Elm()
 
@@ -78,6 +93,7 @@ tidy(model3)
 p4 <- ggplot(inf_interruption_long, aes(month, duration)) +
   geom_line(aes(group = sub), color="black", size = 1, alpha = .35) +
   geom_point(aes(month), color="navyblue",size = 5) +
+  coord_flip(ylim = c(0,300)) +
   labs(y = "Total duration of infant interruptions of caregiver (s)",
        x = "Infant age") +
   theme_classic(12) +
@@ -87,7 +103,7 @@ p4
 
 #t test
 model4 <- t.test(duration ~ month, data = inf_interruption_long, paired = TRUE)
-model4
+tidy(model4)
 
 # ---- overall interruption time
 
@@ -100,6 +116,7 @@ p5 <- ggplot(overall_interruption_long, aes(month, duration)) +
   labs(title = "Overall interruption duration",
        y = "Total interruption time overall (s)",
        x = "Infant age") +
+  coord_flip(ylim = c(0,300)) +
   theme_classic(12) +
   theme_Elm() +
   theme(plot.title = element_text(face="bold"))
@@ -107,8 +124,8 @@ p5 <- ggplot(overall_interruption_long, aes(month, duration)) +
 p5
 
 #t test
-model4 <- t.test(duration ~ month, data = overall_interruption_long, paired = TRUE)
-model4
+model5 <- t.test(duration ~ month, data = overall_interruption_long, paired = TRUE)
+tidy(model5)
 
 # ---- joined plot
 
