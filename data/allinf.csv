@@ -610,13 +610,13 @@ sub,cat,lag,interrupt,inf_onset,inf_offset,cgtype,cg_onset,cg_offset,month
 91,V,,0.0,85.66,86.3,,,,Five
 91,VCV,,0.0,134.075,134.985,,,,Five
 91,V,,0.0,232.325,233.115,,,,Five
-91,V,0.12895500000001903,1.0,234.635,236.565,yes,234.089951,234.763955,Five
+91,V,,0.0,234.635,236.565,,,,Five
 91,V,,0.0,339.82,340.15,,,,Five
-91,V,11.462003000000038,1.0,367.28,367.48,[singing],367.181634,378.742003,Five
-91,V,9.493535000000008,1.0,381.2,381.58,[singing],379.734955,390.693535,Five
-91,V,9.379002999999955,1.0,416.79,416.97,[singing],414.843332,426.169003,Five
-91,V,0.806194000000005,1.0,427.445,428.875,you just want to chew my fingers,426.608309,428.251194,Five
-91,V,2.292498999999964,1.0,429.425,430.375,that is all you want to do just chew chew chew,428.925198,431.717499,Five
+91,V,,0.0,367.28,367.48,,,,Five
+91,V,,0.0,381.2,381.58,,,,Five
+91,V,,0.0,416.79,416.97,,,,Five
+91,V,,0.0,427.445,428.875,,,,Five
+91,V,,0.0,429.425,430.375,,,,Five
 91,V,,0.0,442.83,443.3,,,,Five
 91,V,,0.0,458.655,459.035,,,,Five
 91,CVCV,,0.0,471.8,473.33,,,,Five
@@ -628,7 +628,7 @@ sub,cat,lag,interrupt,inf_onset,inf_offset,cgtype,cg_onset,cg_offset,month
 91,V,,0.0,626.97,627.37,,,,Five
 91,V,,0.0,628.33,628.545,,,,Five
 91,V,,0.0,633.9,634.6,,,,Five
-91,V,0.9522370000000819,1.0,642.92,643.25,put this one on,642.837159,643.872237,Five
+91,V,,0.0,642.92,643.25,,,,Five
 91,V,,0.0,658.12,659.35,,,,Five
 91,V,,0.0,703.385,703.65,,,,Five
 91,V,,0.0,708.03,708.41,,,,Five
@@ -640,7 +640,7 @@ sub,cat,lag,interrupt,inf_onset,inf_offset,cgtype,cg_onset,cg_offset,month
 91,V,,0.0,793.42,793.74,,,,Five
 91,V,,0.0,797.18,797.73,,,,Five
 91,V,,0.0,800.78,801.26,,,,Five
-91,V,0.5098130000000083,1.0,811.4,815.46,what are you telling me,811.223774,811.909813,Five
+91,V,,0.0,811.4,815.46,,,,Five
 94,V,,0.0,73.33,73.67,,,,Five
 94,V,,0.0,78.55,79.36,,,,Five
 94,V,,0.0,81.9,82.73,,,,Five
@@ -888,7 +888,6 @@ sub,cat,lag,interrupt,inf_onset,inf_offset,cgtype,cg_onset,cg_offset,month
 105,V,0.4100610000000131,1.0,209.1,209.82,doo,209.019635,209.510061,Five
 105,V,,0.0,242.705,242.875,,,,Five
 105,V,,0.0,244.205,244.615,,,,Five
-105,V,,0.0,254.615,251.6,,,,Five
 105,V,,0.0,341.13,341.51,,,,Five
 105,V,,0.0,492.69,492.87,,,,Five
 105,V,,0.0,521.13,521.31,,,,Five
@@ -1036,20 +1035,20 @@ sub,cat,lag,interrupt,inf_onset,inf_offset,cgtype,cg_onset,cg_offset,month
 113,V,1.780349000000001,1.0,817.62,817.83,and it makes noises to,817.538545,819.400349,Five
 113,CV,,0.0,829.42,829.88,,,,Five
 115,V,,0.0,265.26,265.58,,,,Five
-115,V,10.379006000000004,1.0,311.25,312.13,hi. hi hi bug. hi. say hi mama. hi mama,311.02048,321.629006,Five
-115,V,3.261020999999971,1.0,324.43,324.8,oh you got my hair. Do you want my hair,324.122254,327.691021,Five
+115,V,,0.0,311.25,312.13,,,,Five
+115,V,,0.0,324.43,324.8,,,,Five
 115,V,,0.0,337.0,337.015,,,,Five
 115,V,,0.0,337.015,337.525,,,,Five
 115,V,,0.0,337.8,339.22,,,,Five
 115,V,,0.0,353.29,354.03,,,,Five
 115,V,,0.0,355.52,356.03,,,,Five
 115,V,,0.0,358.47,359.54,,,,Five
-115,V,2.822735000000023,1.0,404.75,405.42,You want to stand up and play? Hi big boy. Hi Michael Casey. You are such a big boy. You are such a big boy.,397.355307,407.572735,Five
+115,V,,0.0,404.75,405.42,,,,Five
 115,V,,0.0,421.368,422.155,,,,Five
-115,V,2.0439680000000067,1.0,447.474,448.793,Why,447.220269,449.517968,Five
-115,V,11.110239000000036,1.0,456.496,457.439,You see tigger. Oh oh thank you for the kiss. That is a nice kiss. That is a nice kiss. Yeah,455.62887,467.606239,Five
-115,V,1.2452390000000264,1.0,466.361,466.701,You see tigger. Oh oh thank you for the kiss. That is a nice kiss. That is a nice kiss. Yeah,455.62887,467.606239,Five
-115,V,0.8539079999999899,1.0,476.432,476.659,[kisses],475.917066,477.285908,Five
+115,V,,0.0,447.474,448.793,,,,Five
+115,V,,0.0,456.496,457.439,,,,Five
+115,V,,0.0,466.361,466.701,,,,Five
+115,V,,0.0,476.432,476.659,,,,Five
 115,V,,0.0,477.418,477.652,,,,Five
 115,V,,0.0,622.957,623.325,,,,Five
 115,V,,0.0,760.289,760.417,,,,Five
@@ -1186,7 +1185,7 @@ sub,cat,lag,interrupt,inf_onset,inf_offset,cgtype,cg_onset,cg_offset,month
 4,V,,0.0,186.855,187.125,,,,Ten
 4,CV,,0.0,190.915,190.995,,,,Ten
 4,V,,0.0,217.92,218.13,,,,Ten
-4,V,1.7057059999999922,1.0,228.19,228.59,"Oh, almost got it. There you go, good job",226.818476,229.895706,Ten
+4,V,,0.0,228.19,228.59,,,,Ten
 4,V,,0.0,240.955,241.145,,,,Ten
 4,CV,,0.0,245.375,245.635,,,,Ten
 4,V,,0.0,252.33,252.51,,,,Ten
@@ -1208,7 +1207,7 @@ sub,cat,lag,interrupt,inf_onset,inf_offset,cgtype,cg_onset,cg_offset,month
 4,CV,,0.0,400.75,400.96,,,,Ten
 4,V,,0.0,409.58,409.73,,,,Ten
 4,VCV,,0.0,411.23,411.66,,,,Ten
-4,V,0.8347099999999728,1.0,412.35,412.78,Good job standing up,412.070123,413.18471,Ten
+4,V,,0.0,412.35,412.78,,,,Ten
 4,V,,0.0,413.7,413.88,,,,Ten
 4,V,,0.0,429.875,430.455,,,,Ten
 4,V,,0.0,435.87,436.53,,,,Ten
@@ -1217,7 +1216,7 @@ sub,cat,lag,interrupt,inf_onset,inf_offset,cgtype,cg_onset,cg_offset,month
 4,V,,0.0,439.755,440.725,,,,Ten
 4,V,,0.0,449.265,450.045,,,,Ten
 4,VCV,,0.0,450.86,451.33,,,,Ten
-4,V,1.881864999999948,1.0,455.22,455.47,"Oh, good job, you got it. All on your own this time",453.564262,457.101865,Ten
+4,V,,0.0,455.22,455.47,,,,Ten
 4,CVCV,,0.0,460.92,462.14,,,,Ten
 4,CV,,0.0,462.645,462.915,,,,Ten
 4,V,,0.0,463.335,463.485,,,,Ten
@@ -1350,7 +1349,7 @@ sub,cat,lag,interrupt,inf_onset,inf_offset,cgtype,cg_onset,cg_offset,month
 4,VC,,0.0,1647.281,1649.892,,,,Ten
 4,V,,0.0,1653.553,1653.813,,,,Ten
 4,CVCV,,0.0,1658.13,1658.856,,,,Ten
-4,CVCV,0.8558700000000954,1.0,1660.135,1660.876,What do you want to see? What is over there? ,1660.023321,1660.99087,Ten
+4,CVCV,,0.0,1660.135,1660.876,,,,Ten
 4,V,,0.0,1661.66,1661.842,,,,Ten
 4,VCV,,0.0,1670.614,1671.737,,,,Ten
 4,CV,,0.0,1674.694,1674.973,,,,Ten
@@ -1643,12 +1642,12 @@ sub,cat,lag,interrupt,inf_onset,inf_offset,cgtype,cg_onset,cg_offset,month
 11,V,,0.0,155.03,155.76,,,,Ten
 11,VCV,,0.0,169.615,170.175,,,,Ten
 11,V,,0.0,170.975,173.045,,,,Ten
-11,V,0.40443799999999896,1.0,173.65,174.48,Do you want to walk? Do you like to walk?,171.359199,174.054438,Ten
+11,V,,0.0,173.65,174.48,,,,Ten
 11,VCV,,0.0,174.995,176.195,,,,Ten
 11,V,,0.0,176.775,178.165,,,,Ten
 11,V,,0.0,183.49,183.91,,,,Ten
 11,V,,0.0,184.56,185.05,,,,Ten
-11,V,3.110159999999979,1.0,185.895,186.22,To the honey pot? Look at the honey pot,185.59683,189.00516,Ten
+11,V,,0.0,185.895,186.22,,,,Ten
 11,V,,0.0,192.83,194.16,,,,Ten
 11,V,,0.0,215.155,215.385,,,,Ten
 11,V,,0.0,228.34,228.64,,,,Ten
@@ -1658,22 +1657,22 @@ sub,cat,lag,interrupt,inf_onset,inf_offset,cgtype,cg_onset,cg_offset,month
 11,V,,0.0,266.18,267.96,,,,Ten
 11,V,,0.0,268.88,271.77,,,,Ten
 11,V,,0.0,288.796,289.166,,,,Ten
-11,V,2.199957999999981,1.0,306.041,306.261,What else? What else can we find? Hello cloud?,304.248949,308.240958,Ten
-11,V,1.2999580000000037,1.0,306.941,307.191,What else? What else can we find? Hello cloud?,304.248949,308.240958,Ten
-11,V,0.2449579999999969,1.0,307.996,308.206,What else? What else can we find? Hello cloud?,304.248949,308.240958,Ten
+11,V,,0.0,306.041,306.261,,,,Ten
+11,V,,0.0,306.941,307.191,,,,Ten
+11,V,,0.0,307.996,308.206,,,,Ten
 11,V,,0.0,315.411,316.07,,,,Ten
 11,VC,,0.0,320.201,320.621,,,,Ten
 11,V,,0.0,336.841,337.131,,,,Ten
-11,V,1.195873000000006,1.0,353.116,354.256,Starfish? This one?,352.309839,354.311873,Ten
+11,V,,0.0,353.116,354.256,,,,Ten
 11,V,,0.0,361.816,362.076,,,,Ten
 11,V,,0.0,363.346,363.536,,,,Ten
 11,V,,0.0,371.581,371.791,,,,Ten
 11,V,,0.0,391.136,392.896,,,,Ten
 11,C,,0.0,399.096,399.376,,,,Ten
-11,V,0.15970000000004347,1.0,400.006,400.226,Yeah,399.840068,400.1657,Ten
+11,V,,0.0,400.006,400.226,,,,Ten
 11,VCV,,0.0,401.336,402.016,,,,Ten
 11,V,,0.0,404.496,405.306,,,,Ten
-11,V,1.0747070000000463,1.0,407.871,409.21,You can hold on to it. There you go,406.895431,408.945707,Ten
+11,V,,0.0,407.871,409.21,,,,Ten
 11,V,,0.0,411.716,412.666,,,,Ten
 11,VCV,,0.0,417.871,419.221,,,,Ten
 11,V,,0.0,420.286,420.956,,,,Ten
@@ -1682,7 +1681,7 @@ sub,cat,lag,interrupt,inf_onset,inf_offset,cgtype,cg_onset,cg_offset,month
 11,V,,0.0,428.731,429.561,,,,Ten
 11,V,,0.0,431.246,431.876,,,,Ten
 11,VCV,,0.0,445.111,445.731,,,,Ten
-11,VCV,2.22051399999998,1.0,454.171,455.071,What else? What is this? Who is this? What do you think this is?,452.206538,456.391514,Ten
+11,VCV,,0.0,454.171,455.071,,,,Ten
 11,V,,0.0,467.621,467.871,,,,Ten
 11,V,,0.0,487.176,487.806,,,,Ten
 11,V,,0.0,547.041,547.221,,,,Ten
@@ -1741,7 +1740,7 @@ sub,cat,lag,interrupt,inf_onset,inf_offset,cgtype,cg_onset,cg_offset,month
 11,V,,0.0,1411.356,1411.834,,,,Ten
 11,V,,0.0,1438.482,1439.037,,,,Ten
 11,V,0.7289969999999357,1.0,1485.496,1485.741,[buzz] bee,1485.463562,1486.224997,Ten
-11,V,1.3234079999999722,1.0,1512.277,1512.577,[gasp] do you want to play pooh-bear? Peek-a-pooh?,1509.684456,1513.600408,Ten
+11,V,,0.0,1512.277,1512.577,,,,Ten
 11,V,,0.0,1528.51,1528.966,,,,Ten
 11,V,,0.0,1532.065,1532.687,,,,Ten
 11,V,,0.0,1553.656,1554.101,,,,Ten
@@ -1754,10 +1753,10 @@ sub,cat,lag,interrupt,inf_onset,inf_offset,cgtype,cg_onset,cg_offset,month
 11,V,,0.0,1639.085,1639.807,,,,Ten
 11,V,,0.0,1756.156,1756.478,,,,Ten
 11,V,,0.0,1777.338,1778.116,,,,Ten
-11,V,1.6476900000000114,1.0,1787.411,1787.756,Do you like my hat? DO you like my hat?,1786.88316,1789.05869,Ten
+11,V,,0.0,1787.411,1787.756,,,,Ten
 11,VC,,0.0,1789.347,1789.947,,,,Ten
-11,V,2.1719049999999243,1.0,1791.54,1791.822,[laughs] DO you want to get it? Are oyu going to get it? Boom!,1790.206886,1793.711905,Ten
-11,V,0.9472459999999501,1.0,1795.194,1795.812,You like my hat,1794.666721,1796.141246,Ten
+11,V,,0.0,1791.54,1791.822,,,,Ten
+11,V,,0.0,1795.194,1795.812,,,,Ten
 11,V,,0.0,1797.459,1798.168,,,,Ten
 11,V,,0.0,1805.389,1806.026,,,,Ten
 27,V,,0.0,617.901,618.541,,,,Ten
@@ -1817,12 +1816,12 @@ sub,cat,lag,interrupt,inf_onset,inf_offset,cgtype,cg_onset,cg_offset,month
 27,V,3.901333999999906,1.0,1455.861,1456.111,yeah you like the mirror look there is a mirror over here look peyton look here is the mirro here let me show you  ,1450.054591,1459.762334,Ten
 27,VC,,0.0,1489.156,1490.186,,,,Ten
 27,V,,0.0,1506.051,1506.331,,,,Ten
-27,V,4.860138000000006,1.0,1528.501,1528.751,hi pretty girl what are you snuggling mommy,1527.643545,1533.361138,Ten
-27,V,3.5551379999999426,1.0,1529.806,1530.036,hi pretty girl what are you snuggling mommy,1527.643545,1533.361138,Ten
+27,V,,0.0,1528.501,1528.751,,,,Ten
+27,V,,0.0,1529.806,1530.036,,,,Ten
 27,V,,0.0,1535.581,1535.971,,,,Ten
 27,V,,0.0,1557.496,1557.996,,,,Ten
-27,V,0.6305009999998674,1.0,1681.826,1682.106,oh oh i love you snuggle snuggle oh snuggle snuggle,1675.400748,1682.456501,Ten
-27,V,0.015381000000161293,1.0,1711.686,1713.526,aw you rubbing your eyes aww are you tired baby ,1706.397402,1711.701381,Ten
+27,V,,0.0,1681.826,1682.106,,,,Ten
+27,V,,0.0,1711.686,1713.526,,,,Ten
 28,VC,,0.0,30.63,31.26,,,,Ten
 28,V,,0.0,38.535,38.905,,,,Ten
 28,V,,0.0,46.42,46.77,,,,Ten
@@ -1849,9 +1848,9 @@ sub,cat,lag,interrupt,inf_onset,inf_offset,cgtype,cg_onset,cg_offset,month
 28,V,,0.0,292.555,293.025,,,,Ten
 28,VCVC,,0.0,302.13,303.55,,,,Ten
 28,V,,0.0,305.22,305.79,,,,Ten
-28,CV,1.6525560000000041,1.0,327.465,327.86,What do you have. Did you get the circles again?,325.521303,329.117556,Ten
+28,CV,,0.0,327.465,327.86,,,,Ten
 28,CVCV,,0.0,330.685,331.405,,,,Ten
-28,CV,0.4712180000000217,1.0,332.315,332.935,Yeah you did,331.615625,332.786218,Ten
+28,CV,,0.0,332.315,332.935,,,,Ten
 28,CV,,0.0,370.945,371.245,,,,Ten
 28,CV,,0.0,378.065,378.485,,,,Ten
 28,V,,0.0,405.245,405.825,,,,Ten
@@ -1929,7 +1928,7 @@ sub,cat,lag,interrupt,inf_onset,inf_offset,cgtype,cg_onset,cg_offset,month
 28,V,,0.0,1551.88,1553.52,,,,Ten
 28,V,,0.0,1561.01,1561.35,,,,Ten
 28,VCV,,0.0,1561.71,1562.41,,,,Ten
-28,V,4.57463800000005,1.0,1566.59,1567.04,"Oh, what are you working so hard to say. What are you working so hard to say",1565.770257,1571.164638,Ten
+28,V,,0.0,1566.59,1567.04,,,,Ten
 28,CVC,,0.0,1573.885,1575.475,,,,Ten
 28,CV,,0.0,1578.01,1578.67,,,,Ten
 28,CVCV,,0.0,1582.39,1584.19,,,,Ten
@@ -1945,18 +1944,18 @@ sub,cat,lag,interrupt,inf_onset,inf_offset,cgtype,cg_onset,cg_offset,month
 28,V,,0.0,1669.8,1670.44,,,,Ten
 28,CVCV,,0.0,1686.42,1687.85,,,,Ten
 28,VCVC,,0.0,1691.895,1696.97,,,,Ten
-28,VCV,0.2041429999999309,1.0,1703.865,1705.475,[singing],1702.596851,1704.069143,Ten
-28,CV,2.779553000000078,1.0,1708.82,1709.86,What? What little sugar puss? What?,1707.858484,1711.599553,Ten
+28,VCV,,0.0,1703.865,1705.475,,,,Ten
+28,CV,,0.0,1708.82,1709.86,,,,Ten
 28,V,,0.0,1713.595,1713.865,,,,Ten
 28,VCV,,0.0,1714.96,1715.87,,,,Ten
 28,CVCV,,0.0,1718.615,1721.485,,,,Ten
 28,VCVC,,0.0,1724.7,1725.76,,,,Ten
-28,V,0.6185010000001512,1.0,1727.84,1731.45,You are trying to say something,1727.143093,1728.458501,Ten
+28,V,,0.0,1727.84,1731.45,,,,Ten
 28,V,,0.0,1735.615,1736.195,,,,Ten
 28,V,,0.0,1737.785,1737.975,,,,Ten
 28,V,,0.0,1738.79,1741.23,,,,Ten
 28,V,,0.0,1743.0,1744.87,,,,Ten
-28,V,0.27479900000003,1.0,1745.815,1746.075,What?,1745.739828,1746.089799,Ten
+28,V,,0.0,1745.815,1746.075,,,,Ten
 28,CV,,0.0,1747.095,1747.365,,,,Ten
 28,CV,,0.0,1748.79,1749.89,,,,Ten
 28,V,,0.0,1753.83,1756.17,,,,Ten
@@ -1968,7 +1967,7 @@ sub,cat,lag,interrupt,inf_onset,inf_offset,cgtype,cg_onset,cg_offset,month
 28,V,,0.0,1781.735,1782.385,,,,Ten
 28,V,,0.0,1791.26,1791.94,,,,Ten
 28,V,,0.0,1793.06,1794.35,,,,Ten
-28,V,0.7027399999999489,1.0,1799.355,1800.375,No no no,1799.345731,1800.05774,Ten
+28,V,,0.0,1799.355,1800.375,,,,Ten
 28,CVCV,,0.0,1802.385,1803.436,,,,Ten
 43,V,,0.0,6.99,7.259,,,,Ten
 43,V,,0.0,41.493,41.495,,,,Ten
@@ -2035,7 +2034,7 @@ sub,cat,lag,interrupt,inf_onset,inf_offset,cgtype,cg_onset,cg_offset,month
 43,V,,0.0,1436.555,1436.626,,,,Ten
 43,V,,0.0,1443.566,1443.781,,,,Ten
 43,V,,0.0,1466.539,1466.769,,,,Ten
-43,V,1.0486940000000686,1.0,1505.274,1505.504,Was that just a stretch,1504.870095,1506.322694,Ten
+43,V,,0.0,1505.274,1505.504,,,,Ten
 43,V,,0.0,1509.585,1509.832,,,,Ten
 43,V,,0.0,1524.144,1524.603,,,,Ten
 43,V,,0.0,1525.176,1525.414,,,,Ten
@@ -2045,23 +2044,23 @@ sub,cat,lag,interrupt,inf_onset,inf_offset,cgtype,cg_onset,cg_offset,month
 43,V,,0.0,1766.568,1766.839,,,,Ten
 43,V,,0.0,1769.598,1770.271,,,,Ten
 43,V,,0.0,1780.523,1780.767,,,,Ten
-47,VCV,11.444129999999998,1.0,20.17,20.63,oh that is that a ball can you get the ball it is a ball you like the ball can you get it can you get the ball can yuo get the ball what do you think of the ball,14.572516,31.61413,Ten
-47,V,10.20413,1.0,21.41,21.74,oh that is that a ball can you get the ball it is a ball you like the ball can you get it can you get the ball can yuo get the ball what do you think of the ball,14.572516,31.61413,Ten
+47,VCV,,0.0,20.17,20.63,,,,Ten
+47,V,,0.0,21.41,21.74,,,,Ten
 47,CV,,0.0,41.425,41.745,,,,Ten
 47,C,,0.0,78.175,78.495,,,,Ten
 47,CV,,0.0,86.995,87.235,,,,Ten
-47,VC,0.5371710000000007,1.0,99.195,99.575,can i see your ball,98.763897,99.732171,Ten
+47,VC,,0.0,99.195,99.575,,,,Ten
 47,CV,,0.0,110.115,110.325,,,,Ten
-47,V,1.926755,1.0,112.62,113.51,can you get it is it hard because it is round ,111.714555,114.546755,Ten
-47,VCV,0.4544119999999907,1.0,127.745,129.035,that makes a rattle sound ,126.722795,128.199412,Ten
+47,V,,0.0,112.62,113.51,,,,Ten
+47,VCV,,0.0,127.745,129.035,,,,Ten
 47,VCVC,,0.0,144.06,147.35,,,,Ten
-47,V ,3.972094999999996,1.0,154.97,155.66,where is dada [x2] did we send him off to work it is too bad dada cannot stay home all the time it is fun having dada around ,148.581569,158.942095,Ten
+47,V ,,0.0,154.97,155.66,,,,Ten
 47,VCVC,,0.0,188.74,190.17,,,,Ten
 47,CVCV,,0.0,190.485,191.57,,,,Ten
 47,C,,0.0,191.875,192.775,,,,Ten
-47,V,30.73442700000001,1.0,204.435,204.855,where is mama [x2] audrey where is mam here right here these are toes this is your foot and this is your big toe and mommy is tickling your toe now yeah she is tickling you she is getting you what is this it is a little cup oh it is a pretty blue cup it is very nice some day when we sit up in the bathtup when it is a little more safe we will get cups like this we will get water and splash around  ,195.131318,235.169427,Ten
+47,V,,0.0,204.435,204.855,,,,Ten
 47,VC,,0.0,256.415,257.445,,,,Ten
-47,CVCV,1.4319869999999923,1.0,258.38,259.26,this one is red ,258.33537,259.811987,Ten
+47,CVCV,,0.0,258.38,259.26,,,,Ten
 47,VCV,,0.0,259.995,261.175,,,,Ten
 47,V,,0.0,278.975,279.245,,,,Ten
 47,V,,0.0,280.82,281.2,,,,Ten
@@ -2076,13 +2075,13 @@ sub,cat,lag,interrupt,inf_onset,inf_offset,cgtype,cg_onset,cg_offset,month
 47,CVCV,,0.0,489.74,490.84,,,,Ten
 47,V,,0.0,519.92,520.3,,,,Ten
 47,CV,,0.0,522.2,522.61,,,,Ten
-47,CV,0.45709099999999125,1.0,528.075,528.325,going to go night night [x2],525.603064,528.532091,Ten
+47,CV,,0.0,528.075,528.325,,,,Ten
 47,VCVC,,0.0,537.65,539.24,,,,Ten
-47,CV,14.708404000000087,1.0,555.29,555.64,let us do some airplaine hi  big girl such a big girl such a big girl fly up in the air woo oh such a big girl ,553.271479,569.998404,Ten
-47,V,9.883404000000041,1.0,560.115,560.375,let us do some airplaine hi  big girl such a big girl such a big girl fly up in the air woo oh such a big girl ,553.271479,569.998404,Ten
+47,CV,,0.0,555.29,555.64,,,,Ten
+47,V,,0.0,560.115,560.375,,,,Ten
 47,CV ,,0.0,572.835,573.335,,,,Ten
-47,CVCV,4.162865000000011,1.0,574.55,575.75,goo goo goo are you my goo goo girl my goo goo girl  goo goo girl ,574.065153,578.712865,Ten
-47,CV,0.3741850000000113,1.0,588.675,588.985,what are you doing are you eating your hand is it tasty does it taste delicous ,583.554233,589.049185,Ten
+47,CVCV,,0.0,574.55,575.75,,,,Ten
+47,CV,,0.0,588.675,588.985,,,,Ten
 47,V ,,0.0,589.53,590.32,,,,Ten
 47,V,,0.0,590.76,591.18,,,,Ten
 47,V,,0.0,591.56,595.27,,,,Ten
@@ -2145,41 +2144,41 @@ sub,cat,lag,interrupt,inf_onset,inf_offset,cgtype,cg_onset,cg_offset,month
 47,CVC,0.04480999999987034,1.0,1478.412,1479.114,how is your toes ,1477.343296,1478.45681,Ten
 47,VC,,0.0,1480.192,1483.217,,,,Ten
 47,V,,0.0,1484.483,1485.841,,,,Ten
-47,CV,11.03788899999995,1.0,1505.932,1506.574,we have not practiced in a while we have not practiced standing up from laying down it is kind of hard with the overalls whoopise ,1504.575988,1516.969889,Ten
-47,CV,9.487888999999996,1.0,1507.482,1507.982,we have not practiced in a while we have not practiced standing up from laying down it is kind of hard with the overalls whoopise ,1504.575988,1516.969889,Ten
-47,V,8.048888999999917,1.0,1508.921,1509.293,we have not practiced in a while we have not practiced standing up from laying down it is kind of hard with the overalls whoopise ,1504.575988,1516.969889,Ten
-47,CV,4.951888999999937,1.0,1512.018,1514.789,we have not practiced in a while we have not practiced standing up from laying down it is kind of hard with the overalls whoopise ,1504.575988,1516.969889,Ten
-47,VC,9.481845000000021,1.0,1525.74,1526.611,let us sit this way  do you want to play with any of these oh you like the ball  here is a ball there is a bal want to eat the ball is everything  ooh the ball can move ,1518.906436,1535.221845,Ten
-47,V,6.460845000000063,1.0,1528.761,1529.361,let us sit this way  do you want to play with any of these oh you like the ball  here is a ball there is a bal want to eat the ball is everything  ooh the ball can move ,1518.906436,1535.221845,Ten
-47,CVCV,4.231845000000021,1.0,1530.99,1531.89,let us sit this way  do you want to play with any of these oh you like the ball  here is a ball there is a bal want to eat the ball is everything  ooh the ball can move ,1518.906436,1535.221845,Ten
-47,VC,2.991845000000012,1.0,1532.23,1532.915,let us sit this way  do you want to play with any of these oh you like the ball  here is a ball there is a bal want to eat the ball is everything  ooh the ball can move ,1518.906436,1535.221845,Ten
-47,CV,0.7214349999999286,1.0,1563.847,1564.475,it is a ball,1563.360162,1564.568435,Ten
+47,CV,,0.0,1505.932,1506.574,,,,Ten
+47,CV,,0.0,1507.482,1507.982,,,,Ten
+47,V,,0.0,1508.921,1509.293,,,,Ten
+47,CV,,0.0,1512.018,1514.789,,,,Ten
+47,VC,,0.0,1525.74,1526.611,,,,Ten
+47,V,,0.0,1528.761,1529.361,,,,Ten
+47,CVCV,,0.0,1530.99,1531.89,,,,Ten
+47,VC,,0.0,1532.23,1532.915,,,,Ten
+47,CV,,0.0,1563.847,1564.475,,,,Ten
 47,CVCV,,0.0,1577.607,1578.507,,,,Ten
 47,VC,,0.0,1621.912,1622.441,,,,Ten
 47,V,,0.0,1623.047,1623.333,,,,Ten
 47,CVC,,0.0,1625.548,1626.177,,,,Ten
 47,V,,0.0,1651.278,1652.957,,,,Ten
 47,CVCV,,0.0,1667.714,1668.814,,,,Ten
-47,VCVC,0.15717200000017328,1.0,1742.994,1745.966,is that your mommy and mommy and you ,1741.024612,1743.151172,Ten
-47,V,0.033517000000074404,1.0,1762.885,1763.743,come on,1762.338546,1762.918517,Ten
-47,CVCV,5.195023999999876,1.0,1767.583,1769.669,biggy girl biggy girl you are a big girl,1765.528387,1772.778024,Ten
+47,VCVC,,0.0,1742.994,1745.966,,,,Ten
+47,V,,0.0,1762.885,1763.743,,,,Ten
+47,CVCV,,0.0,1767.583,1769.669,,,,Ten
 47,CVCV,,0.0,1774.237,1774.894,,,,Ten
-48,V,5.149457999999996,1.0,92.03,92.44,oliver get it oh get it  get that ball get it ,91.32475,97.179458,Ten
-48,V,61.20051000000001,1.0,266.402,266.696,what if we do a little flying woo woo mommy is getting some excersise this way with arms whoopsiedoo whoopsiedoo and some oliver drool woo oh so big what a big boy. what a big oliver oliver what are you looking at the bead. that is a red bead it is wooden yah so exciting is it not look at all the new stuff in the room it is not at home we are at college we are at college we are at university getting smart because you are a smart boy you are my smart boy i am going to get that booger out of your nose ,263.309538,327.60251,Ten
-48,V,2.809523000000013,1.0,351.063,351.168,mommy you do not want mommy to do that oh nice big boy flying in the air like an airplane can you go the speed of sound and do a sonic boom woosh boom woosh boom woosh wooh boom ,334.632514,353.872523,Ten
-48,V,0.4850640000000226,1.0,377.111,377.234,let me just get it let me just get it i want to get it out of your nose ok fine ,372.046061,377.596064,Ten
+48,V,,0.0,92.03,92.44,,,,Ten
+48,V,,0.0,266.402,266.696,,,,Ten
+48,V,,0.0,351.063,351.168,,,,Ten
+48,V,,0.0,377.111,377.234,,,,Ten
 48,V,,0.0,383.505,383.558,,,,Ten
-48,VCVC,23.884731000000045,1.0,396.109,396.936,what if i get you what if i get you you are so ticklish under your armpits you are so ticklish you are just like your daddy you are just like your daddy  you look like your daddy and you are ticklish like your daddy and your toes are ticklish and your armpits and your belly and these are your feet and i am tickling those too oopsie is that fun to look at the lights yeah what do you think ,390.197834,419.993731,Ten
-48,VC,13.683731000000023,1.0,406.31,406.848,what if i get you what if i get you you are so ticklish under your armpits you are so ticklish you are just like your daddy you are just like your daddy  you look like your daddy and you are ticklish like your daddy and your toes are ticklish and your armpits and your belly and these are your feet and i am tickling those too oopsie is that fun to look at the lights yeah what do you think ,390.197834,419.993731,Ten
-48,VCV,4.7137310000000525,1.0,415.28,415.817,what if i get you what if i get you you are so ticklish under your armpits you are so ticklish you are just like your daddy you are just like your daddy  you look like your daddy and you are ticklish like your daddy and your toes are ticklish and your armpits and your belly and these are your feet and i am tickling those too oopsie is that fun to look at the lights yeah what do you think ,390.197834,419.993731,Ten
+48,VCVC,,0.0,396.109,396.936,,,,Ten
+48,VC,,0.0,406.31,406.848,,,,Ten
+48,VCV,,0.0,415.28,415.817,,,,Ten
 48,V,,0.0,518.019,518.456,,,,Ten
-48,V,0.22772199999997156,1.0,523.279,523.405,where are you going,522.940839,523.506722,Ten
+48,V,,0.0,523.279,523.405,,,,Ten
 48,V,,0.0,543.043,543.526,,,,Ten
 48,V,,0.0,546.705,547.396,,,,Ten
 48,V,,0.0,548.141,548.83,,,,Ten
 48,CV,,0.0,555.514,556.388,,,,Ten
 48,V,,0.0,556.7,557.146,,,,Ten
-48,V,10.571808000000033,1.0,570.002,570.29,go get it [x2] oh boy you pushed them pretty far away you pushed them prettty far away ollie go get them come on let us go get the balls,569.69145,580.573808,Ten
+48,V,,0.0,570.002,570.29,,,,Ten
 48,V,11.635811999999987,1.0,700.201,700.478,and a kind of a light-orange-ish yellow and there is a yellow cup and here is red and you can put the ball in the red acup and you can put the square like the cube in the yellow cup and this cupe in the orange cup and this other cube with the green trim  maybe this one matches that better and this one matches that better  vvery exciting and then lets see this is purple do you like that one that is number ten its oh its silly they have numbers on them but they do not have the number of itmes on it like there are only six diamonds and six stars they should have but nine stars and eight cirlces,653.529137,711.836812,Ten
 48,V,10.050812000000064,1.0,701.786,702.001,and a kind of a light-orange-ish yellow and there is a yellow cup and here is red and you can put the ball in the red acup and you can put the square like the cube in the yellow cup and this cupe in the orange cup and this other cube with the green trim  maybe this one matches that better and this one matches that better  vvery exciting and then lets see this is purple do you like that one that is number ten its oh its silly they have numbers on them but they do not have the number of itmes on it like there are only six diamonds and six stars they should have but nine stars and eight cirlces,653.529137,711.836812,Ten
 48,CVCV,,0.0,711.979,712.282,,,,Ten
@@ -2251,20 +2250,20 @@ sub,cat,lag,interrupt,inf_onset,inf_offset,cgtype,cg_onset,cg_offset,month
 48,VCVC,,0.0,1457.217,1457.685,,,,Ten
 48,VCV,0.5788279999999304,1.0,1478.486,1478.998,oliver,1478.172474,1479.064828,Ten
 48,V,,0.0,1486.137,1486.555,,,,Ten
-48,V,5.662970000000087,1.0,1525.376,1526.443,what do you think of the pillow you have something to climb something to climb yeah it is coorderoy wild wide whale,1519.503671,1531.03897,Ten
+48,V,,0.0,1525.376,1526.443,,,,Ten
 48,V,,0.0,1532.175,1532.669,,,,Ten
 48,VC,,0.0,1535.175,1536.042,,,,Ten
 48,V,,0.0,1536.57,1536.95,,,,Ten
 48,V,,0.0,1550.326,1550.464,,,,Ten
-48,V,1.1168740000000525,1.0,1574.888,1575.759,what is mommy doing is mommy making some music,1572.914284,1576.004874,Ten
+48,V,,0.0,1574.888,1575.759,,,,Ten
 48,V,,0.0,1578.435,1578.739,,,,Ten
 48,V,,0.0,1591.239,1592.205,,,,Ten
 48,V,,0.0,1608.651,1608.797,,,,Ten
 48,V,,0.0,1609.583,1610.076,,,,Ten
-53,V,0.8124679999999955,1.0,153.34,153.57,it is fun stuff is it not,152.692169,154.152468,Ten
+53,V,,0.0,153.34,153.57,,,,Ten
 53,V,,0.0,190.26,190.52,,,,Ten
-53,V,0.2275940000000105,1.0,224.945,225.235,eight,224.472753,225.172594,Ten
-53,V,0.44359499999998775,1.0,238.555,238.785,you have the tenth one,237.521764,238.998595,Ten
+53,V,,0.0,224.945,225.235,,,,Ten
+53,V,,0.0,238.555,238.785,,,,Ten
 53,V,,0.0,239.495,239.875,,,,Ten
 53,VCV,,0.0,354.9,355.58,,,,Ten
 53,V,,0.0,405.685,407.455,,,,Ten
@@ -2274,7 +2273,7 @@ sub,cat,lag,interrupt,inf_onset,inf_offset,cgtype,cg_onset,cg_offset,month
 53,CV,,0.0,513.515,513.725,,,,Ten
 53,V,,0.0,531.375,532.105,,,,Ten
 53,V,,0.0,536.215,537.735,,,,Ten
-53,V,0.1362250000000813,1.0,541.53,542.79,[imitates baby],540.470433,541.666225,Ten
+53,V,,0.0,541.53,542.79,,,,Ten
 53,V,,0.0,544.355,545.605,,,,Ten
 53,V,,0.0,560.435,561.085,,,,Ten
 53,V,,0.0,569.725,570.425,,,,Ten
@@ -2282,7 +2281,7 @@ sub,cat,lag,interrupt,inf_onset,inf_offset,cgtype,cg_onset,cg_offset,month
 53,V,,0.0,578.455,579.075,,,,Ten
 53,CVC,,0.0,585.41,585.78,,,,Ten
 53,V,,0.0,586.5,586.9,,,,Ten
-53,V,0.362166000000002,1.0,590.315,592.255,[recast],586.522202,590.677166,Ten
+53,V,,0.0,590.315,592.255,,,,Ten
 53,V,,0.0,599.23,601.24,,,,Ten
 53,V,,0.0,629.115,630.285,,,,Ten
 53,VCV,0.5196389999999838,1.0,631.36,635.33,and here they come babyname,630.590168,631.879639,Ten
@@ -2336,15 +2335,15 @@ sub,cat,lag,interrupt,inf_onset,inf_offset,cgtype,cg_onset,cg_offset,month
 53,V,,0.0,1523.793,1524.802,,,,Ten
 53,V,,0.0,1586.387,1587.478,,,,Ten
 53,CV,,0.0,1621.221,1621.584,,,,Ten
-53,V,2.382362999999941,1.0,1634.453,1635.321,two teeth if i can see them i can not we got one mouth,1630.365963,1636.835363,Ten
-53,V,0.38142199999992954,1.0,1655.267,1655.604,you want to climb mom,1654.45263,1655.648422,Ten
-53,V,0.2222509999999147,1.0,1684.814,1685.567,it is a baby,1684.055371,1685.036251,Ten
-53,V,0.3642820000000029,1.0,1687.036,1687.303,it is a baby,1686.590229,1687.400282,Ten
+53,V,,0.0,1634.453,1635.321,,,,Ten
+53,V,,0.0,1655.267,1655.604,,,,Ten
+53,V,,0.0,1684.814,1685.567,,,,Ten
+53,V,,0.0,1687.036,1687.303,,,,Ten
 53,V,,0.0,1708.718,1708.975,,,,Ten
 53,V,,0.0,1712.88,1714.276,,,,Ten
-53,V,0.8557160000000295,1.0,1718.335,1719.029,and a moo it is a cow it says moo and that is a dog it says woof,1713.15665,1719.190716,Ten
-53,V,1.8363690000001043,1.0,1725.521,1726.086,and i bet that is a quack is that a duck,1724.480855,1727.357369,Ten
-53,CV,0.8763690000000679,1.0,1726.481,1726.758,and i bet that is a quack is that a duck,1724.480855,1727.357369,Ten
+53,V,,0.0,1718.335,1719.029,,,,Ten
+53,V,,0.0,1725.521,1726.086,,,,Ten
+53,CV,,0.0,1726.481,1726.758,,,,Ten
 53,CVCV,,0.0,1727.722,1728.851,,,,Ten
 53,V,,0.0,1789.53,1790.703,,,,Ten
 53,V,,0.0,1842.821,1844.163,,,,Ten
@@ -2357,7 +2356,7 @@ sub,cat,lag,interrupt,inf_onset,inf_offset,cgtype,cg_onset,cg_offset,month
 59,V,,0.0,150.511,150.701,,,,Ten
 59,V,,0.0,158.376,158.576,,,,Ten
 59,V,,0.0,159.626,159.826,,,,Ten
-59,V,3.3730059999999753,1.0,270.206,270.386,want to come see me yeah come here,268.360447,273.579006,Ten
+59,V,,0.0,270.206,270.386,,,,Ten
 59,CV,,0.0,318.286,318.616,,,,Ten
 59,V,,0.0,329.671,332.281,,,,Ten
 59,VCV,,0.0,422.566,423.096,,,,Ten
@@ -2449,7 +2448,7 @@ sub,cat,lag,interrupt,inf_onset,inf_offset,cgtype,cg_onset,cg_offset,month
 64,V,,0.0,386.95,389.11,,,,Ten
 64,V,,0.0,440.34,440.77,,,,Ten
 64,CV,,0.0,478.965,479.605,,,,Ten
-64,CVCV,0.36774400000001606,1.0,535.745,538.955,that is the perfect baby sized ball,533.517255,536.112744,Ten
+64,CVCV,,0.0,535.745,538.955,,,,Ten
 64,V,,0.0,542.92,543.61,,,,Ten
 64,V,,0.0,555.325,556.135,,,,Ten
 64,V,,0.0,597.1,597.59,,,,Ten
@@ -2523,7 +2522,7 @@ sub,cat,lag,interrupt,inf_onset,inf_offset,cgtype,cg_onset,cg_offset,month
 64,V,,0.0,1437.377,1437.868,,,,Ten
 64,V,,0.0,1489.353,1489.526,,,,Ten
 64,V,,0.0,1515.811,1516.038,,,,Ten
-64,V,0.3363930000000437,1.0,1527.425,1527.725,that is pretty fun,1526.082007,1527.761393,Ten
+64,V,,0.0,1527.425,1527.725,,,,Ten
 64,V,,0.0,1533.748,1534.03,,,,Ten
 64,V,,0.0,1547.521,1547.83,,,,Ten
 64,V,,0.0,1553.586,1553.859,,,,Ten
@@ -2538,39 +2537,39 @@ sub,cat,lag,interrupt,inf_onset,inf_offset,cgtype,cg_onset,cg_offset,month
 64,V,,0.0,1715.15,1715.368,,,,Ten
 64,V,,0.0,1739.773,1740.255,,,,Ten
 64,V,,0.0,1775.106,1775.597,,,,Ten
-64,V,8.785742000000027,1.0,1780.576,1780.84,you grabbing his face those are his eyes those are his eyes that is his cheeck that cheek,1780.245076,1789.361742,Ten
+64,V,,0.0,1780.576,1780.84,,,,Ten
 71,V,,0.0,24.8,25.07,,,,Ten
 71,V,,0.0,55.97,56.17,,,,Ten
 71,V,,0.0,58.68,58.83,,,,Ten
 71,V,,0.0,75.895,76.765,,,,Ten
 71,V,,0.0,78.37,78.5,,,,Ten
-71,V,2.759309000000002,1.0,83.995,84.375,it is a half circle i see ya i see it ,82.350046,86.754309,Ten
-71,V,0.8693090000000012,1.0,85.885,86.025,it is a half circle i see ya i see it ,82.350046,86.754309,Ten
+71,V,,0.0,83.995,84.375,,,,Ten
+71,V,,0.0,85.885,86.025,,,,Ten
 71,V,,0.0,88.645,88.835,,,,Ten
-71,V,0.20839599999999336,1.0,90.2,90.33,ok what color next ,88.714448,90.408396,Ten
+71,V,,0.0,90.2,90.33,,,,Ten
 71,C,,0.0,97.595,97.855,,,,Ten
 71,V,,0.0,98.865,99.035,,,,Ten
 71,V,,0.0,118.71,118.91,,,,Ten
-71,V,5.015529000000001,1.0,119.78,119.91,you hold that down that circle  the black circle  ,118.769916,124.795529,Ten
-71,V,0.3373899999999992,1.0,128.935,129.315,is there a face on oh look at the face,127.263853,129.27239,Ten
+71,V,,0.0,119.78,119.91,,,,Ten
+71,V,,0.0,128.935,129.315,,,,Ten
 71,VC,,0.0,134.045,134.395,,,,Ten
-71,V,0.9592179999999928,1.0,211.244,211.564,did you see who is on here there is a bee there is a bee on there,207.411767,212.203218,Ten
+71,V,,0.0,211.244,211.564,,,,Ten
 71,V,,0.0,221.414,221.554,,,,Ten
-71,V,2.5594000000000108,1.0,229.584,230.164,ok we will just make the shoes go buh bye make the shoes go buh bye ,228.997497,232.1434,Ten
+71,V,,0.0,229.584,230.164,,,,Ten
 71,V,,0.0,238.594,238.884,,,,Ten
 71,V,,0.0,239.359,239.879,,,,Ten
-71,V,0.4051330000000064,1.0,240.329,240.579,ok yup,239.499971,240.734133,Ten
+71,V,,0.0,240.329,240.579,,,,Ten
 71,V,,0.0,266.224,266.404,,,,Ten
 71,V,,0.0,268.604,268.724,,,,Ten
 71,V,,0.0,280.834,281.164,,,,Ten
 71,V,,0.0,281.949,282.329,,,,Ten
-71,V,0.4042110000000321,1.0,282.969,283.239,want to disconnect it ,282.187447,283.373211,Ten
-71,V,0.06498899999996866,1.0,296.884,297.224,do you see the shape of the star  ,295.206644,296.948989,Ten
+71,V,,0.0,282.969,283.239,,,,Ten
+71,V,,0.0,296.884,297.224,,,,Ten
 71,VC,,0.0,305.064,305.254,,,,Ten
 71,VCV,,0.0,319.359,319.809,,,,Ten
 71,V,,0.0,334.284,334.444,,,,Ten
 71,VCVC,,0.0,335.054,338.914,,,,Ten
-71,V,5.522978000000023,1.0,356.28,356.68,does it make you happy yes oh mama hold it shake it too shake it  ,354.494805,361.802978,Ten
+71,V,,0.0,356.28,356.68,,,,Ten
 71,V,,0.0,380.24,380.63,,,,Ten
 71,V,,0.0,381.935,382.145,,,,Ten
 71,VCVC,,0.0,401.11,402.23,,,,Ten
@@ -2583,18 +2582,18 @@ sub,cat,lag,interrupt,inf_onset,inf_offset,cgtype,cg_onset,cg_offset,month
 71,V,,0.0,475.635,475.845,,,,Ten
 71,V,,0.0,484.22,484.35,,,,Ten
 71,V,,0.0,492.635,492.955,,,,Ten
-71,V,4.774872000000016,1.0,495.835,496.215,ok let us go [x2] yeah ok we will jump first we will jump first  ,493.156504,500.609872,Ten
-71,V,2.9148720000000026,1.0,497.695,497.955,ok let us go [x2] yeah ok we will jump first we will jump first  ,493.156504,500.609872,Ten
+71,V,,0.0,495.835,496.215,,,,Ten
+71,V,,0.0,497.695,497.955,,,,Ten
 71,V,,0.0,504.505,504.685,,,,Ten
 71,V,,0.0,539.395,539.665,,,,Ten
-71,V,1.706833999999958,1.0,551.73,551.87,let us go you head over ,551.404097,553.436834,Ten
+71,V,,0.0,551.73,551.87,,,,Ten
 71,V,,0.0,553.59,553.99,,,,Ten
 71,V,,0.0,563.92,564.15,,,,Ten
 71,V,,0.0,564.675,565.185,,,,Ten
 71,V,,0.0,565.75,565.99,,,,Ten
 71,V,,0.0,572.54,572.68,,,,Ten
 71,V,,0.0,573.52,574.0,,,,Ten
-71,V,0.006109999999921456,1.0,583.22,583.77,ok ready up do you want to come up. up [x10] and there you go  ,577.248895,583.22611,Ten
+71,V,,0.0,583.22,583.77,,,,Ten
 71,CV,,0.0,628.405,628.585,,,,Ten
 71,V,,0.0,636.675,637.045,,,,Ten
 71,V,,0.0,677.78,677.95,,,,Ten
@@ -2671,8 +2670,8 @@ sub,cat,lag,interrupt,inf_onset,inf_offset,cgtype,cg_onset,cg_offset,month
 71,VCV,,0.0,1517.513,1519.513,,,,Ten
 71,VCV,,0.0,1519.655,1520.642,,,,Ten
 71,VCV,,0.0,1520.642,1520.675,,,,Ten
-71,V,4.305531999999857,1.0,1521.603,1521.792,are you a sleepy man are you a sleepy man ,1521.415166,1525.908532,Ten
-71,V,3.7785319999998137,1.0,1522.13,1522.549,are you a sleepy man are you a sleepy man ,1521.415166,1525.908532,Ten
+71,V,,0.0,1521.603,1521.792,,,,Ten
+71,V,,0.0,1522.13,1522.549,,,,Ten
 71,VCV,,0.0,1530.432,1531.013,,,,Ten
 71,VCV,,0.0,1533.953,1535.007,,,,Ten
 71,CVCV,,0.0,1535.426,1536.737,,,,Ten
@@ -2685,59 +2684,59 @@ sub,cat,lag,interrupt,inf_onset,inf_offset,cgtype,cg_onset,cg_offset,month
 71,V,,0.0,1551.273,1551.436,,,,Ten
 71,V,,0.0,1552.408,1552.827,,,,Ten
 71,V,,0.0,1561.339,1561.623,,,,Ten
-71,V,1.5293010000000322,1.0,1569.023,1569.411,they probably frown pon chewing on it though yes yes ,1565.140935,1570.552301,Ten
-71,V,0.562300999999934,1.0,1569.99,1570.151,they probably frown pon chewing on it though yes yes ,1565.140935,1570.552301,Ten
-71,V,4.263979999999947,1.0,1577.256,1577.462,ok let us see what mama can find for in the playbox for us to play with how about the ball  ,1575.142298,1581.51998,Ten
-71,CVCV,3.4519800000000487,1.0,1578.068,1578.271,ok let us see what mama can find for in the playbox for us to play with how about the ball  ,1575.142298,1581.51998,Ten
-71,V,1.7987640000001193,1.0,1590.399,1591.204,the red ball can you hang on to that no ok,1587.027977,1592.197764,Ten
+71,V,,0.0,1569.023,1569.411,,,,Ten
+71,V,,0.0,1569.99,1570.151,,,,Ten
+71,V,,0.0,1577.256,1577.462,,,,Ten
+71,CVCV,,0.0,1578.068,1578.271,,,,Ten
+71,V,,0.0,1590.399,1591.204,,,,Ten
 71,V,,0.0,1610.177,1610.811,,,,Ten
 71,CV,,0.0,1611.573,1612.036,,,,Ten
 71,CVCV,,0.0,1612.728,1613.447,,,,Ten
 71,CV,,0.0,1613.93,1614.173,,,,Ten
-71,V,0.41096300000003794,1.0,1615.993,1617.554,grab it ,1615.824174,1616.403963,Ten
-71,V,1.1457479999999123,1.0,1625.018,1625.36,it is a blue star ,1624.810906,1626.163748,Ten
-71,V,0.7563239999999496,1.0,1630.239,1630.739,and a yellow star ,1629.400904,1630.995324,Ten
+71,V,,0.0,1615.993,1617.554,,,,Ten
+71,V,,0.0,1625.018,1625.36,,,,Ten
+71,V,,0.0,1630.239,1630.739,,,,Ten
 71,V,,0.0,1652.998,1653.206,,,,Ten
 71,V,,0.0,1662.715,1662.99,,,,Ten
 71,V,,0.0,1664.116,1664.443,,,,Ten
 71,V,,0.0,1675.946,1676.019,,,,Ten
-71,V,5.0626649999999245,1.0,1683.67,1683.937,[sound effect],1680.663932,1688.732665,Ten
-71,V,2.81866500000001,1.0,1685.914,1686.459,[sound effect],1680.663932,1688.732665,Ten
-71,V,1.4786650000000918,1.0,1687.254,1689.611,[sound effect],1680.663932,1688.732665,Ten
+71,V,,0.0,1683.67,1683.937,,,,Ten
+71,V,,0.0,1685.914,1686.459,,,,Ten
+71,V,,0.0,1687.254,1689.611,,,,Ten
 71,V,,0.0,1690.295,1690.989,,,,Ten
 71,V,,0.0,1693.074,1693.432,,,,Ten
-71,V,1.7161869999999908,1.0,1695.665,1695.797,[sound effect],1695.400241,1697.381187,Ten
-71,V,1.089187000000038,1.0,1696.292,1696.567,[sound effect],1695.400241,1697.381187,Ten
+71,V,,0.0,1695.665,1695.797,,,,Ten
+71,V,,0.0,1696.292,1696.567,,,,Ten
 71,V,,0.0,1698.917,1699.886,,,,Ten
 71,V,,0.0,1700.605,1700.85,,,,Ten
 71,V,,0.0,1701.196,1701.492,,,,Ten
 71,V,,0.0,1706.858,1707.267,,,,Ten
 71,V,,0.0,1707.572,1708.837,,,,Ten
-71,V,2.0274950000000445,1.0,1711.008,1711.334,[sound effect],1709.460129,1713.035495,Ten
-71,V,0.5254950000000917,1.0,1712.51,1712.785,[sound effect],1709.460129,1713.035495,Ten
+71,V,,0.0,1711.008,1711.334,,,,Ten
+71,V,,0.0,1712.51,1712.785,,,,Ten
 71,V,,0.0,1722.864,1723.068,,,,Ten
-71,V,6.416009999999915,1.0,1730.874,1731.15,[sound effect],1730.67075,1737.29001,Ten
-71,V,0.9510099999999966,1.0,1736.339,1736.665,[sound effect],1730.67075,1737.29001,Ten
+71,V,,0.0,1730.874,1731.15,,,,Ten
+71,V,,0.0,1736.339,1736.665,,,,Ten
 71,VCV,,0.0,1738.018,1738.477,,,,Ten
 71,VCVC,,0.0,1741.648,1743.76,,,,Ten
 71,VCVC,,0.0,1748.179,1749.598,,,,Ten
 71,VCVC,,0.0,1749.949,1750.929,,,,Ten
 71,V,,0.0,1754.592,1754.807,,,,Ten
 71,V,,0.0,1761.42,1761.594,,,,Ten
-71,V,1.3842079999999441,1.0,1762.866,1763.04,[sound effect],1761.834419,1764.250208,Ten
+71,V,,0.0,1762.866,1763.04,,,,Ten
 71,V,,0.0,1767.219,1767.679,,,,Ten
 71,V,,0.0,1768.755,1769.459,,,,Ten
 71,V,,0.0,1770.656,1770.952,,,,Ten
-71,V,1.1783080000000155,1.0,1773.798,1774.012,[sound effect],1772.318941,1774.976308,Ten
+71,V,,0.0,1773.798,1774.012,,,,Ten
 71,V,,0.0,1776.266,1776.429,,,,Ten
 71,V,,0.0,1778.212,1779.212,,,,Ten
-71,V,2.340776999999889,1.0,1781.429,1781.919,no traction no traction at all,1780.43599,1783.769777,Ten
+71,V,,0.0,1781.429,1781.919,,,,Ten
 71,V,,0.0,1785.278,1785.493,,,,Ten
 71,V,,0.0,1786.86,1787.39,,,,Ten
 71,V,,0.0,1787.788,1789.053,,,,Ten
-71,V,0.6534019999999146,1.0,1797.901,1798.371,os it ernie in the toy box ,1796.090298,1798.554402,Ten
-71,V,3.0893459999999777,1.0,1802.954,1803.199,are you going to get the buggy i will give you some traction give you some traction ,1802.612926,1806.043346,Ten
-71,V,1.003345999999965,1.0,1805.04,1805.213,are you going to get the buggy i will give you some traction give you some traction ,1802.612926,1806.043346,Ten
+71,V,,0.0,1797.901,1798.371,,,,Ten
+71,V,,0.0,1802.954,1803.199,,,,Ten
+71,V,,0.0,1805.04,1805.213,,,,Ten
 72,V,,0.0,30.14,30.72,,,,Ten
 72,VCV,,0.0,31.25,31.82,,,,Ten
 72,CV,,0.0,61.965,62.375,,,,Ten
@@ -2768,8 +2767,8 @@ sub,cat,lag,interrupt,inf_onset,inf_offset,cgtype,cg_onset,cg_offset,month
 72,VCV,,0.0,391.07,391.76,,,,Ten
 72,CV,,0.0,400.825,401.115,,,,Ten
 72,VCV,,0.0,407.124,407.649,,,,Ten
-72,CVC,1.5079079999999863,1.0,419.711,420.511,oh its heavy it is a heavy microphone on your tushy you have a microphone there if you want to know what it is yeah,414.166351,421.218908,Ten
-72,V,0.4842710000000352,1.0,430.236,430.573,uh huh,429.961142,430.720271,Ten
+72,CVC,,0.0,419.711,420.511,,,,Ten
+72,V,,0.0,430.236,430.573,,,,Ten
 72,CVCV,,0.0,432.937,433.466,,,,Ten
 72,CVCV,,0.0,441.147,441.697,,,,Ten
 72,,,0.0,442.209,443.197,,,,Ten
@@ -2908,7 +2907,7 @@ sub,cat,lag,interrupt,inf_onset,inf_offset,cgtype,cg_onset,cg_offset,month
 74,VCV,,0.0,1553.53,1555.151,,,,Ten
 74,V,,0.0,1563.139,1564.66,,,,Ten
 74,CV,,0.0,1570.443,1570.67,,,,Ten
-74,V,1.032222000000047,1.0,1597.268,1597.408,red ball,1596.905194,1598.300222,Ten
+74,V,,0.0,1597.268,1597.408,,,,Ten
 74,CV,,0.0,1605.451,1605.515,,,,Ten
 74,V,,0.0,1624.113,1624.452,,,,Ten
 74,V,,0.0,1632.363,1632.51,,,,Ten
@@ -2922,7 +2921,7 @@ sub,cat,lag,interrupt,inf_onset,inf_offset,cgtype,cg_onset,cg_offset,month
 74,VCVC,,0.0,1716.62,1718.035,,,,Ten
 74,V,,0.0,1751.607,1751.679,,,,Ten
 74,V,,0.0,1772.141,1773.026,,,,Ten
-74,V,1.260738000000174,1.0,1773.493,1774.254,yes you got to be nice,1772.95764,1774.753738,Ten
+74,V,,0.0,1773.493,1774.254,,,,Ten
 74,V,,0.0,1778.382,1778.566,,,,Ten
 74,V,,0.0,1788.599,1789.037,,,,Ten
 74,V,,0.0,1792.951,1793.214,,,,Ten
@@ -2952,7 +2951,7 @@ sub,cat,lag,interrupt,inf_onset,inf_offset,cgtype,cg_onset,cg_offset,month
 75,CVCV,0.9333610000001045,1.0,1484.6,1485.3,oh no one is here,1482.266272,1485.533361,Ten
 75,V,,0.0,1497.85,1498.92,,,,Ten
 75,V,,0.0,1544.495,1545.095,,,,Ten
-75,VC,9.136627999999973,1.0,1559.405,1559.955,is that tasty is that are your teeth let me check your teeth actually i do not want to put my hand in your mouth  [unintelligible],1559.200173,1568.541628,Ten
+75,VC,,0.0,1559.405,1559.955,,,,Ten
 75,CVCV,,0.0,1663.4,1664.19,,,,Ten
 75,CVCV,,0.0,1666.825,1667.525,,,,Ten
 75,CVCV,,0.0,1673.82,1675.415,,,,Ten
@@ -2968,7 +2967,7 @@ sub,cat,lag,interrupt,inf_onset,inf_offset,cgtype,cg_onset,cg_offset,month
 76,V,,0.0,1059.845,1060.307,,,,Ten
 76,V,,0.0,1063.394,1064.058,,,,Ten
 76,VCVC,,0.0,1075.853,1077.3,,,,Ten
-76,V,3.4620689999999286,1.0,1081.219,1081.366,You trying to stand up on that again do you need help,1080.528625,1084.681069,Ten
+76,V,,0.0,1081.219,1081.366,,,,Ten
 76,V,,0.0,1117.547,1118.456,,,,Ten
 76,V,,0.0,1227.74,1227.989,,,,Ten
 76,V,,0.0,1230.539,1231.345,,,,Ten
@@ -2981,8 +2980,8 @@ sub,cat,lag,interrupt,inf_onset,inf_offset,cgtype,cg_onset,cg_offset,month
 76,V,,0.0,1309.262,1309.621,,,,Ten
 76,V,,0.0,1310.662,1311.267,,,,Ten
 76,V,,0.0,1312.167,1312.843,,,,Ten
-76,V,2.0233899999998357,1.0,1313.746,1314.402,woah [x2],1313.741453,1315.76939,Ten
-76,V,0.7143899999998666,1.0,1315.055,1315.557,woah [x2],1313.741453,1315.76939,Ten
+76,V,,0.0,1313.746,1314.402,,,,Ten
+76,V,,0.0,1315.055,1315.557,,,,Ten
 76,V,,0.0,1316.194,1316.281,,,,Ten
 76,V,,0.0,1316.664,1316.838,,,,Ten
 76,V,,0.0,1317.032,1317.257,,,,Ten
@@ -3072,13 +3071,13 @@ sub,cat,lag,interrupt,inf_onset,inf_offset,cgtype,cg_onset,cg_offset,month
 85,V,19.87568599999986,1.0,1326.546,1327.534,Hi there you are can you see mommy peek [laughs] oh kay hi [baby name] hi sweet boy you are so cute you want my glasses too hi mommy look different,1324.731874,1346.421686,Ten
 85,V,8.742685999999821,1.0,1337.679,1338.068,Hi there you are can you see mommy peek [laughs] oh kay hi [baby name] hi sweet boy you are so cute you want my glasses too hi mommy look different,1324.731874,1346.421686,Ten
 85,V,,0.0,1538.62,1539.009,,,,Ten
-85,V,2.5040129999999863,1.0,1542.009,1542.654,[singing] [laughs],1540.792988,1544.513013,Ten
+85,V,,0.0,1542.009,1542.654,,,,Ten
 85,V,,0.0,1568.343,1569.199,,,,Ten
 85,V,,0.0,1634.118,1634.852,,,,Ten
 85,C,,0.0,1636.704,1637.715,,,,Ten
 85,VC,,0.0,1642.636,1643.347,,,,Ten
-85,CV,6.3080549999999675,1.0,1643.988,1644.499,Ball [parent recasting],1643.982346,1650.296055,Ten
-85,V,1.911055000000033,1.0,1648.385,1649.152,Ball [parent recasting],1643.982346,1650.296055,Ten
+85,CV,,0.0,1643.988,1644.499,,,,Ten
+85,V,,0.0,1648.385,1649.152,,,,Ten
 85,VC,,0.0,1656.724,1657.624,,,,Ten
 85,V,,0.0,1681.357,1683.444,,,,Ten
 85,VC,,0.0,1684.076,1684.609,,,,Ten
@@ -3121,7 +3120,7 @@ sub,cat,lag,interrupt,inf_onset,inf_offset,cgtype,cg_onset,cg_offset,month
 87,CVCV,,0.0,1408.67,1409.34,,,,Ten
 87,VCV,,0.0,1498.965,1499.495,,,,Ten
 87,V,,0.0,1673.525,1673.895,,,,Ten
-87,V,0.4957809999998517,1.0,1677.68,1678.08,I see you,1677.352838,1678.175781,Ten
+87,V,,0.0,1677.68,1678.08,,,,Ten
 87,V,,0.0,1678.27,1678.43,,,,Ten
 87,V,,0.0,1678.56,1678.94,,,,Ten
 87,V,,0.0,1685.52,1685.82,,,,Ten
@@ -3212,7 +3211,7 @@ sub,cat,lag,interrupt,inf_onset,inf_offset,cgtype,cg_onset,cg_offset,month
 94,CV,,0.0,1432.655,1433.075,,,,Ten
 94,CV,,0.0,1462.185,1463.045,,,,Ten
 94,V,,0.0,1474.475,1474.935,,,,Ten
-94,V,1.5910539999999855,1.0,1569.835,1570.225,[sound effects],1567.874072,1571.426054,Ten
+94,V,,0.0,1569.835,1570.225,,,,Ten
 94,C,,0.0,1587.15,1587.55,,,,Ten
 94,C,,0.0,1588.45,1588.94,,,,Ten
 94,VC,,0.0,1593.845,1594.355,,,,Ten
@@ -3388,14 +3387,14 @@ sub,cat,lag,interrupt,inf_onset,inf_offset,cgtype,cg_onset,cg_offset,month
 99,V,,0.0,1766.839,1767.459,,,,Ten
 99,VCV,,0.0,1771.404,1772.0,,,,Ten
 99,V,,0.0,1776.299,1777.549,,,,Ten
-99,VCV,2.1577709999999115,1.0,1780.219,1781.179,oh yeah [imitates baby],1779.074414,1782.376771,Ten
-99,V,0.5988509999999678,1.0,1786.824,1787.384,[singing],1784.675757,1787.422851,Ten
-99,V,13.019805000000133,1.0,1794.149,1794.409,[singing] [imitates baby],1789.556232,1807.168805,Ten
-99,VCV,9.914805000000115,1.0,1797.254,1798.284,[singing] [imitates baby],1789.556232,1807.168805,Ten
-99,V,8.614804999999933,1.0,1798.554,1799.234,[singing] [imitates baby],1789.556232,1807.168805,Ten
-99,CVCV,7.019805000000133,1.0,1800.149,1801.109,[singing] [imitates baby],1789.556232,1807.168805,Ten
-99,CVCV,4.394805000000133,1.0,1802.774,1803.244,[singing] [imitates baby],1789.556232,1807.168805,Ten
-99,VCVC,2.4448050000000876,1.0,1804.724,1805.814,[singing] [imitates baby],1789.556232,1807.168805,Ten
+99,VCV,,0.0,1780.219,1781.179,,,,Ten
+99,V,,0.0,1786.824,1787.384,,,,Ten
+99,V,,0.0,1794.149,1794.409,,,,Ten
+99,VCV,,0.0,1797.254,1798.284,,,,Ten
+99,V,,0.0,1798.554,1799.234,,,,Ten
+99,CVCV,,0.0,1800.149,1801.109,,,,Ten
+99,CVCV,,0.0,1802.774,1803.244,,,,Ten
+99,VCVC,,0.0,1804.724,1805.814,,,,Ten
 101,V,,0.0,605.81,606.95,,,,Ten
 101,V,,0.0,622.17,623.28,,,,Ten
 101,V,,0.0,698.175,698.625,,,,Ten
@@ -3443,10 +3442,10 @@ sub,cat,lag,interrupt,inf_onset,inf_offset,cgtype,cg_onset,cg_offset,month
 101,V,,0.0,1511.117,1511.307,,,,Ten
 101,V,,0.0,1514.172,1514.892,,,,Ten
 101,V,,0.0,1558.502,1559.282,,,,Ten
-101,V,0.38453899999990426,1.0,1559.872,1560.012,oh really?,1559.572621,1560.256539,Ten
+101,V,,0.0,1559.872,1560.012,,,,Ten
 101,V,,0.0,1588.042,1588.552,,,,Ten
 101,V,,0.0,1594.377,1595.007,,,,Ten
-101,V,3.6388039999999364,1.0,1694.692,1694.922,[sound effects],1674.01802,1698.330804,Ten
+101,V,,0.0,1694.692,1694.922,,,,Ten
 101,V,,0.0,1739.657,1740.387,,,,Ten
 101,V,,0.0,1761.552,1762.112,,,,Ten
 101,V,,0.0,1780.402,1780.842,,,,Ten
@@ -3493,8 +3492,8 @@ sub,cat,lag,interrupt,inf_onset,inf_offset,cgtype,cg_onset,cg_offset,month
 105,CV,,0.0,1498.708,1499.094,,,,Ten
 105,V,,0.0,1503.43,1504.258,,,,Ten
 105,V,,0.0,1509.259,1509.588,,,,Ten
-105,VCV,0.49937199999999393,1.0,1513.762,1514.534,In [x3],1511.310925,1514.261372,Ten
-105,VC,0.4651169999999638,1.0,1515.419,1516.091,Back up,1515.294028,1515.884117,Ten
+105,VCV,,0.0,1513.762,1514.534,,,,Ten
+105,VC,,0.0,1515.419,1516.091,,,,Ten
 105,V,,0.0,1519.541,1520.155,,,,Ten
 105,V,,0.0,1525.999,1526.428,,,,Ten
 105,V,,0.0,1527.612,1529.012,,,,Ten
@@ -3510,21 +3509,21 @@ sub,cat,lag,interrupt,inf_onset,inf_offset,cgtype,cg_onset,cg_offset,month
 105,V,,0.0,1626.619,1626.99,,,,Ten
 105,V,,0.0,1630.016,1630.643,,,,Ten
 105,V,,0.0,1631.387,1631.887,,,,Ten
-105,V,4.871857000000091,1.0,1636.48,1636.866,[tickle noises],1632.611159,1641.351857,Ten
-105,V,0.011169999999992797,1.0,1643.406,1644.306,Did Mommy get you?,1641.997267,1643.41717,Ten
-105,VCV,2.5497949999999037,1.0,1644.998,1645.984,[imitates baby],1644.431386,1647.547795,Ten
-105,V,0.0107949999999164,1.0,1647.537,1647.851,[imitates baby],1644.431386,1647.547795,Ten
+105,V,,0.0,1636.48,1636.866,,,,Ten
+105,V,,0.0,1643.406,1644.306,,,,Ten
+105,VCV,,0.0,1644.998,1645.984,,,,Ten
+105,V,,0.0,1647.537,1647.851,,,,Ten
 105,V,,0.0,1654.09,1654.476,,,,Ten
-105,CV,0.8256120000000919,1.0,1655.426,1657.169,[abababababa],1654.739508,1656.251612,Ten
+105,CV,,0.0,1655.426,1657.169,,,,Ten
 105,VCV,,0.0,1659.597,1660.068,,,,Ten
 105,CV,,0.0,1673.025,1673.285,,,,Ten
 105,CV,,0.0,1673.639,1673.939,,,,Ten
 105,CV,,0.0,1684.141,1684.684,,,,Ten
 105,V,,0.0,1685.685,1686.513,,,,Ten
-105,V,10.509325999999874,1.0,1706.208,1706.851,[sound effects],1705.044622,1716.717326,Ten
+105,V,,0.0,1706.208,1706.851,,,,Ten
 105,V,,0.0,1731.798,1733.127,,,,Ten
 105,V,,0.0,1735.033,1736.219,,,,Ten
-105,CV,1.3671670000001086,1.0,1758.482,1758.982,Yeah. [unintelligible] boy. Yeah,1757.120004,1759.849167,Ten
+105,CV,,0.0,1758.482,1758.982,,,,Ten
 105,V,,0.0,1782.098,1782.941,,,,Ten
 106,CVCV,,0.0,616.38,617.05,,,,Ten
 106,VCV,,0.0,639.24,639.72,,,,Ten
@@ -3648,24 +3647,24 @@ sub,cat,lag,interrupt,inf_onset,inf_offset,cgtype,cg_onset,cg_offset,month
 106,CV,,0.0,1522.752,1522.952,,,,Ten
 106,VCV,,0.0,1524.717,1525.337,,,,Ten
 106,V,,0.0,1527.652,1527.922,,,,Ten
-106,CV,2.2124350000001414,1.0,1538.3,1538.413,there it is you saw [unintellgible] yeah,1536.773857,1540.512435,Ten
-106,V,0.8634350000002087,1.0,1539.649,1539.92,there it is you saw [unintellgible] yeah,1536.773857,1540.512435,Ten
+106,CV,,0.0,1538.3,1538.413,,,,Ten
+106,V,,0.0,1539.649,1539.92,,,,Ten
 106,CV,,0.0,1550.855,1551.021,,,,Ten
 106,CV,,0.0,1552.646,1552.756,,,,Ten
 106,CVCV,,0.0,1553.815,1554.29,,,,Ten
 106,V,,0.0,1562.191,1562.278,,,,Ten
-106,VCV,10.134749000000056,1.0,1584.628,1585.033,do you think the toy box is funny. Do you like the sesame street guys that are on there  yeah they are funny you are going to take the all with you.   ,1582.755637,1594.762749,Ten
-106,V,6.622748999999885,1.0,1588.14,1588.606,do you think the toy box is funny. Do you like the sesame street guys that are on there  yeah they are funny you are going to take the all with you.   ,1582.755637,1594.762749,Ten
-106,VCV,4.293748999999934,1.0,1590.469,1590.772,do you think the toy box is funny. Do you like the sesame street guys that are on there  yeah they are funny you are going to take the all with you.   ,1582.755637,1594.762749,Ten
+106,VCV,,0.0,1584.628,1585.033,,,,Ten
+106,V,,0.0,1588.14,1588.606,,,,Ten
+106,VCV,,0.0,1590.469,1590.772,,,,Ten
 106,VCV,,0.0,1594.801,1594.924,,,,Ten
 106,V,,0.0,1601.615,1601.708,,,,Ten
 106,V,,0.0,1603.844,1604.354,,,,Ten
 106,VCV,,0.0,1615.194,1615.631,,,,Ten
 106,VC,,0.0,1619.773,1620.096,,,,Ten
-106,CV,2.933950999999979,1.0,1623.02,1623.169,let us put the ball in should we put the ball in,1622.651995,1625.953951,Ten
-106,CV,1.66595099999995,1.0,1624.288,1624.448,let us put the ball in should we put the ball in,1622.651995,1625.953951,Ten
+106,CV,,0.0,1623.02,1623.169,,,,Ten
+106,CV,,0.0,1624.288,1624.448,,,,Ten
 106,CVCV,,0.0,1626.487,1626.829,,,,Ten
-106,CV,1.2650849999999991,1.0,1636.887,1637.251,you look like you could use some help you can do it,1635.232173,1638.152085,Ten
+106,CV,,0.0,1636.887,1637.251,,,,Ten
 106,V,,0.0,1639.524,1639.591,,,,Ten
 106,V,,0.0,1644.762,1644.964,,,,Ten
 106,CV,,0.0,1647.741,1647.878,,,,Ten
@@ -3675,14 +3674,14 @@ sub,cat,lag,interrupt,inf_onset,inf_offset,cgtype,cg_onset,cg_offset,month
 106,VC,,0.0,1672.626,1673.002,,,,Ten
 106,V,,0.0,1674.219,1675.539,,,,Ten
 106,V,,0.0,1688.033,1688.141,,,,Ten
-106,V,1.5382650000001377,1.0,1690.946,1691.378,that is so [x2],1689.809954,1692.484265,Ten
+106,V,,0.0,1690.946,1691.378,,,,Ten
 106,V,,0.0,1696.081,1696.169,,,,Ten
 106,CVCV,,0.0,1708.101,1708.517,,,,Ten
 106,CV,,0.0,1709.516,1709.647,,,,Ten
 106,V,,0.0,1710.102,1710.233,,,,Ten
 106,CV,,0.0,1711.296,1711.652,,,,Ten
 106,V,,0.0,1713.402,1713.489,,,,Ten
-106,V,1.2719109999998182,1.0,1716.4,1716.908,do you like elmo he is so funny,1714.5064,1717.671911,Ten
+106,V,,0.0,1716.4,1716.908,,,,Ten
 106,V,,0.0,1718.52,1718.75,,,,Ten
 106,VC,,0.0,1720.807,1721.568,,,,Ten
 106,VC,,0.0,1722.362,1722.639,,,,Ten
@@ -3695,7 +3694,7 @@ sub,cat,lag,interrupt,inf_onset,inf_offset,cgtype,cg_onset,cg_offset,month
 106,V,,0.0,1749.247,1749.466,,,,Ten
 106,CV,,0.0,1751.076,1751.266,,,,Ten
 106,CV,,0.0,1771.655,1771.76,,,,Ten
-106,VCV,0.5574349999999413,1.0,1773.402,1773.708,that is elmo,1772.971101,1773.959435,Ten
+106,VCV,,0.0,1773.402,1773.708,,,,Ten
 106,VCV,,0.0,1774.561,1774.777,,,,Ten
 106,V,,0.0,1777.18,1777.405,,,,Ten
 106,V,,0.0,1787.154,1787.353,,,,Ten
@@ -3746,70 +3745,70 @@ sub,cat,lag,interrupt,inf_onset,inf_offset,cgtype,cg_onset,cg_offset,month
 113,V,23.985837000000174,1.0,1392.484,1392.934,Are you tired already let's go see what's over here look at tigger look at tigger look at tigger look at him right there he is orange he is orange yes he is orange oh no you are probably not supposed to touch those things you are probably not supposed to touch those let us go see what is going on over here,1391.627477,1416.469837,Ten
 113,V,,0.0,1430.149,1430.559,,,,Ten
 113,VCV,0.3573660000001837,1.0,1441.734,1442.364,Yes he is yellow,1440.310406,1442.091366,Ten
-113,V,8.812000000000126,1.0,1491.879,1492.309,[mama] x4 [kisses] yes I know,1491.674893,1500.691,Ten
-113,CVC,7.836999999999989,1.0,1492.854,1493.384,[mama] x4 [kisses] yes I know,1491.674893,1500.691,Ten
-113,CV,6.641000000000076,1.0,1494.05,1494.609,[mama] x4 [kisses] yes I know,1491.674893,1500.691,Ten
+113,V,,0.0,1491.879,1492.309,,,,Ten
+113,CVC,,0.0,1492.854,1493.384,,,,Ten
+113,CV,,0.0,1494.05,1494.609,,,,Ten
 113,CV,,0.0,1500.774,1501.53,,,,Ten
 113,V,,0.0,1508.254,1509.72,,,,Ten
 113,V,,0.0,1511.399,1511.909,,,,Ten
 113,V,,0.0,1513.654,1514.634,,,,Ten
-113,VC,4.772099000000026,1.0,1551.584,1552.224,oh oh no you do not want to be upside down [kisses] you do not want to be upside down ok ok,1550.234051,1556.356099,Ten
-113,V,3.882099000000153,1.0,1552.474,1554.234,oh oh no you do not want to be upside down [kisses] you do not want to be upside down ok ok,1550.234051,1556.356099,Ten
-113,V,1.1420990000001439,1.0,1555.214,1555.744,oh oh no you do not want to be upside down [kisses] you do not want to be upside down ok ok,1550.234051,1556.356099,Ten
+113,VC,,0.0,1551.584,1552.224,,,,Ten
+113,V,,0.0,1552.474,1554.234,,,,Ten
+113,V,,0.0,1555.214,1555.744,,,,Ten
 113,V,,0.0,1565.719,1566.329,,,,Ten
 113,CV,,0.0,1566.734,1567.474,,,,Ten
-113,V,33.05679800000007,1.0,1567.884,1568.444,Ok ok ok please stand up ok let us go on over here look at the donkey see the donkey and the cloud see the cloud yeah that is a cloud and a bee and a donkey oh no little baby see the butterfly and look another cloud yeah,1567.709715,1600.940798,Ten
-113,V,31.346798000000035,1.0,1569.594,1571.244,Ok ok ok please stand up ok let us go on over here look at the donkey see the donkey and the cloud see the cloud yeah that is a cloud and a bee and a donkey oh no little baby see the butterfly and look another cloud yeah,1567.709715,1600.940798,Ten
-113,V,24.471798000000035,1.0,1576.469,1576.889,Ok ok ok please stand up ok let us go on over here look at the donkey see the donkey and the cloud see the cloud yeah that is a cloud and a bee and a donkey oh no little baby see the butterfly and look another cloud yeah,1567.709715,1600.940798,Ten
+113,V,,0.0,1567.884,1568.444,,,,Ten
+113,V,,0.0,1569.594,1571.244,,,,Ten
+113,V,,0.0,1576.469,1576.889,,,,Ten
 113,V,,0.0,1620.359,1620.809,,,,Ten
 113,V,,0.0,1677.654,1678.054,,,,Ten
 113,CV,,0.0,1699.974,1700.364,,,,Ten
 113,CV,,0.0,1729.189,1731.619,,,,Ten
 113,V,,0.0,1738.234,1738.594,,,,Ten
 113,V,,0.0,1740.884,1741.784,,,,Ten
-113,V,6.121309999999994,1.0,1743.904,1745.804,it is okay it is okay it is okay baby it is okay baby you are alright,1743.478261,1750.02531,Ten
-113,CV,0.8842380000000958,1.0,1767.234,1768.064,yeah oh what,1766.023587,1768.118238,Ten
+113,V,,0.0,1743.904,1745.804,,,,Ten
+113,CV,,0.0,1767.234,1768.064,,,,Ten
 113,V,,0.0,1768.629,1768.959,,,,Ten
 113,V,,0.0,1772.104,1775.734,,,,Ten
-113,CV,2.533096000000114,1.0,1777.809,1778.279,What is the matter are you hungry are you hungry is the baby hungry is the baby hungry,1773.602784,1780.342096,Ten
+113,CV,,0.0,1777.809,1778.279,,,,Ten
 113,CV,,0.0,1784.254,1784.784,,,,Ten
 113,V,,0.0,1785.479,1787.639,,,,Ten
 113,V,,0.0,1788.169,1789.0,,,,Ten
-113,V,4.894579999999905,1.0,1789.594,1790.444,No it is another toy yeah it is another toy I know,1788.953439,1794.48858,Ten
-113,V,3.5755799999999454,1.0,1790.913,1791.679,No it is another toy yeah it is another toy I know,1788.953439,1794.48858,Ten
+113,V,,0.0,1789.594,1790.444,,,,Ten
+113,V,,0.0,1790.913,1791.679,,,,Ten
 113,CV,,0.0,1801.579,1802.333,,,,Ten
-113,CV,2.0850729999999658,1.0,1802.897,1804.163,[imitates baby],1802.543373,1804.982073,Ten
+113,CV,,0.0,1802.897,1804.163,,,,Ten
 115,V,,0.0,39.16,39.73,,,,Ten
 115,V,,0.0,127.305,127.855,,,,Ten
-115,V,3.426027000000005,1.0,181.63,182.13,hi i know you want to play with those but we are not giong to play with them play with toys i see blocks  ,176.983438,185.056027,Ten
+115,V,,0.0,181.63,182.13,,,,Ten
 115,V,,0.0,243.5,244.04,,,,Ten
 115,V,,0.0,317.61,317.91,,,,Ten
 115,V,,0.0,331.72,331.98,,,,Ten
 115,V,,0.0,345.14,345.56,,,,Ten
-115,V,4.186325000000011,1.0,347.94,348.32,where are you going  to get the headphones to get the headphoesn ,346.540094,352.126325,Ten
+115,V,,0.0,347.94,348.32,,,,Ten
 115,V,,0.0,361.64,362.42,,,,Ten
-115,V,5.22779700000001,1.0,367.08,367.72,here let us go play with toys i am going to go over here and play with toys let us go see what is in the toy box here i am going to play with toys let us see  ,362.459239,372.307797,Ten
-115,V,1.7379960000000096,1.0,375.93,376.28,oh i see a ball i did not see this ball yesterday,373.50254,377.667996,Ten
+115,V,,0.0,367.08,367.72,,,,Ten
+115,V,,0.0,375.93,376.28,,,,Ten
 115,V,,0.0,407.085,407.235,,,,Ten
 115,V,,0.0,424.02,424.84,,,,Ten
 115,V,,0.0,426.41,426.67,,,,Ten
 115,V,,0.0,431.43,431.64,,,,Ten
-115,V,3.294456000000025,1.0,446.155,447.285,where did it go it keeps disappearing  let us go get it here are you frustrated ,441.699771,449.449456,Ten
-115,V,1.4594559999999888,1.0,447.99,448.46,where did it go it keeps disappearing  let us go get it here are you frustrated ,441.699771,449.449456,Ten
+115,V,,0.0,446.155,447.285,,,,Ten
+115,V,,0.0,447.99,448.46,,,,Ten
 115,V,,0.0,450.015,450.465,,,,Ten
-115,V,2.4968509999999924,1.0,454.67,454.99,i am frustrated mama say i am frustrated ,453.001395,457.166851,Ten
+115,V,,0.0,454.67,454.99,,,,Ten
 115,V,,0.0,458.24,460.27,,,,Ten
 115,V,,0.0,467.935,468.975,,,,Ten
 115,V,,0.0,474.285,475.135,,,,Ten
 115,V,,0.0,475.49,476.79,,,,Ten
-115,V,0.25697099999996453,1.0,479.61,480.66,it is like an apple nom nom nom,477.380614,479.866971,Ten
+115,V,,0.0,479.61,480.66,,,,Ten
 115,V,,0.0,486.455,486.935,,,,Ten
 115,V,,0.0,487.495,488.345,,,,Ten
-115,V,0.6613419999999905,1.0,494.705,496.695,hi you want a hug i will get in here,492.783113,495.366342,Ten
+115,V,,0.0,494.705,496.695,,,,Ten
 115,V,,0.0,502.99,503.6,,,,Ten
 115,V,,0.0,504.165,505.005,,,,Ten
-115,V,1.3885040000000117,1.0,558.72,559.11,you have a stuffy nose today,558.300244,560.108504,Ten
-115,V,0.4035039999999981,1.0,559.705,560.005,you have a stuffy nose today,558.300244,560.108504,Ten
+115,V,,0.0,558.72,559.11,,,,Ten
+115,V,,0.0,559.705,560.005,,,,Ten
 115,V,,0.0,560.345,560.555,,,,Ten
 115,V,,0.0,561.74,563.81,,,,Ten
 115,V,,0.0,565.955,566.295,,,,Ten
@@ -3836,7 +3835,7 @@ sub,cat,lag,interrupt,inf_onset,inf_offset,cgtype,cg_onset,cg_offset,month
 118,V,0.7793209999999817,1.0,1436.305,1436.765,[abababababa],1436.042753,1437.084321,Ten
 118,V,,0.0,1735.615,1736.365,,,,Ten
 118,V,,0.0,1773.67,1774.65,,,,Ten
-118,V,4.295412000000169,1.0,1775.84,1776.13,You need a mommy hug? You need a mommy hug? You are doing well. you are doing well,1775.290913,1780.135412,Ten
+118,V,,0.0,1775.84,1776.13,,,,Ten
 118,V,,0.0,1791.745,1791.915,,,,Ten
 118,V,,0.0,1801.87,1802.9,,,,Ten
 118,V,,0.0,1803.225,1804.41,,,,Ten
