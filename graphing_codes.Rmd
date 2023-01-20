@@ -1,0 +1,250 @@
+---
+title: "CogSci2023 - Interruption of babbling"
+output:
+  pdf_document: default
+  html_notebook: default
+---
+
+```{r, echo=FALSE}
+library(tidyverse)
+maturity_long = read.csv("maturity_long.csv")
+maturity = read.csv("maturity.csv")
+
+alloverall = read.csv("alloverall.csv")
+allcg = read.csv("allcg.csv")
+allinf = read.csv("allinf.csv")
+#all_V = read.csv("all_V.csv")
+#all_C = read.csv("all_C.csv")
+
+overall_interruption_long = read.csv("overall_interruption_long.csv")
+overall_interruption= read.csv("overall_interruption.csv")
+cg_interruption_long = read.csv("cg_interruption_long.csv")
+cg_interruption= read.csv("cg_interruption.csv")
+inf_interruption_long = read.csv("inf_interruption_long.csv")
+inf_interruption= read.csv("inf_interruption.csv")
+#interruption_long_V = read.csv("interruption_long_V.csv")
+#interruption_V = read.csv("interruption_V.csv")
+#interruption_long_C = read.csv("interruption_long_C.csv")
+#interruption_C = read.csv("interruption_C.csv")
+```
+
+ <font size="1"> Proportions of babbling that's interrupted</font> 
+```{r}
+cg_interruption_long$month [cg_interruption_long$month == 5] <- "Five"
+cg_interruption_long$month [cg_interruption_long$month == 10] <- "Ten"
+ggplot(cg_interruption_long, aes(month, proportion)) +
+  geom_line(aes(group = sub), color="grey",
+          size = 0.5)+
+  geom_point(aes(month), color="navyblue",size = 2)+
+  xlab("Month") +ylab("Proportions of babbling interrupted by caregivers")+
+  ylim(0, 0.5)+
+  labs(title = "Babbling interrupted rate")
+
+model1 <- t.test(proportion ~ month, data = cg_interruption_long, paired = TRUE)
+model1
+```
+
+ <font size="1"> Proportions of babbling that's interruptive </font> 
+```{r}
+inf_interruption_long$month [inf_interruption_long$month == 5] <- "Five"
+inf_interruption_long$month [inf_interruption_long$month == 10] <- "Ten"
+ggplot(inf_interruption_long, aes(month, proportion)) +
+  geom_line(aes(group = sub), color="grey",
+          size = 0.5)+
+  geom_point(aes(month), color="navyblue",size = 2)+
+  xlab("Month") +ylab("Proportions of babbling interrupting caregivers")+
+  ylim(0, 0.5)+
+  labs(title = "Babbling interruptive rate")
+
+model1 <- t.test(proportion ~ month, data = inf_interruption_long, paired = TRUE)
+model1
+```
+
+ <font size="1"> Durations: Overall </font> 
+```{r}
+overall_interruption_long$month [overall_interruption_long$month == 5] <- "Five"
+overall_interruption_long$month [overall_interruption_long$month == 10] <- "Ten"
+ggplot(overall_interruption_long, aes(month, duration)) +
+  geom_line(aes(group = sub), color="grey",
+          size = 0.5)+
+  geom_point(aes(month), color="orange3",size = 2)+
+  xlab("Month") +ylab("Durations of interruptions overall (seconds)")+
+  ylim(0,6)+
+  labs(title = "")
+
+# The durations of interruption are significantly shorter at 10 month, compared to 5 month.
+model2 <- lm(lag ~ month, data = alloverall)
+summary(model2)
+```
+
+<font size="1"> Durations: caregivers interrupt infants </font> 
+```{r}
+cg_interruption_long$month [cg_interruption_long$month == 5] <- "Five"
+cg_interruption_long$month [cg_interruption_long$month == 10] <- "Ten"
+ggplot(cg_interruption_long, aes(month, duration)) +
+  geom_line(aes(group = sub), color="grey",
+          size = 0.5)+
+  geom_point(aes(month), color="orange3",size = 2)+
+  xlab("Month") +ylab("Durations of interruptions by caregivers (seconds)")+
+  ylim(0,6)+
+  labs(title = "")
+
+# The durations of interruption are significantly shorter at 10 month, compared to 5 month.
+model2 <- lm(lag ~ month, data = allcg)
+summary(model2)
+```
+
+ <font size="1"> Durations: infants interrupt caregivers</font> 
+```{r}
+inf_interruption_long$month [inf_interruption_long$month == 5] <- "Five"
+inf_interruption_long$month [inf_interruption_long$month == 10] <- "Ten"
+ggplot(inf_interruption_long, aes(month, duration)) +
+  geom_line(aes(group = sub), color="grey",
+          size = 0.5)+
+  geom_point(aes(month), color="orange3",size = 2)+
+  xlab("Month") +ylab("Durations of interruptions by infants (seconds)")+
+  ylim(0,6)
+  labs(title = "")
+
+# The durations of interruption are significantly shorter at 10 month, compared to 5 month.
+model2 <- lm(lag ~ month, data = allinf)
+summary(model2)
+```
+
+ <font size="1"> Correlations </font> 
+```{r}
+xa = overall_interruption$duration5
+xb = overall_interruption$duration10
+xc = overall_interruption$duration_difference_score
+  
+xd = cg_interruption$duration5
+xe = cg_interruption$duration10
+xf = cg_interruption$duration_difference_score
+
+xg = inf_interruption$duration5
+xh = inf_interruption$duration10
+xi = inf_interruption$duration_difference_score
+```
+
+```{r}
+ya = cg_interruption$proportion5
+yb = cg_interruption$proportion10
+yc = cg_interruption$proportion_difference_score
+
+yd = inf_interruption$proportion5
+ye = inf_interruption$proportion10
+yf = inf_interruption$proportion_difference_score
+```
+
+```{r}
+# overall interruption duration difference score x duration of interruption at 5mon
+cor.test(xc, xa, method = "pearson")
+```
+
+```{r}
+# cg interruption duration difference score x duration of interruption at 5mon
+cor.test(xf, xd, method = "pearson")
+```
+
+```{r}
+# inf interruption duration difference score x duration of interruption at 5mon
+cor.test(xi, xg, method = "pearson")
+```
+
+```{r}
+# overall interruption duration difference score x interruption rates at 5mon.
+cor.test(xa, yd, method = "pearson")
+```
+
+```{r}
+cor.test(xg, yd, method = "pearson")
+cor.test(xi, yf, method = "pearson")
+```
+
+
+ <font size="1"> Vocal Maturity </font> 
+```{r}
+maturity_long$month [maturity_long$month == 5] <- "Five"
+maturity_long$month [maturity_long$month == 10] <- "Ten"
+ggplot(maturity_long, aes(month, Cproportion)) +
+  geom_line(aes(group = sub), color="grey",
+          size = 0.5)+
+  geom_point(aes(month), color="salmon",size = 2)+
+  xlab("Month") +ylab("Proportions of babbling containing consonants")+
+  labs(title = "Vocal Maturity")
+
+# Proportions of babbling containing consonants are significantly greater at 10 month, compared  to 5month. 
+model3 <- t.test(Cproportion ~ month, data = maturity_long, paired = TRUE)
+model3
+```
+
+Correlations
+```{r}
+# Proportions of babbling interrupted at 5, 10, and difference score
+x1 = cg_interruption$proportion5
+x2 = cg_interruption$proportion10
+x3 = cg_interruption$proportion_difference_score
+
+# Durations of interruptions at 5, 10, and difference score
+x4 = cg_interruption$duration5
+x5 = cg_interruption$duration10
+x6 = cg_interruption$duration_difference_score
+```
+
+```{r}
+# Proportions of babbling interruptive at 5, 10, and difference score
+x13 = inf_interruption$proportion5
+x14 = inf_interruption$proportion10
+x15 = inf_interruption$proportion_difference_score
+
+# Durations of interruptions at 5, 10, and difference score
+x16 = inf_interruption$duration5
+x17 = inf_interruption$duration10
+x18 = inf_interruption$duration_difference_score
+```
+
+
+```{r}
+# Proportions of vowels interrupted at 5, 10, and difference score
+#x7 = interruption_V$proportion5
+#x8 = interruption_V$proportion10
+#x9 = interruption_V$proportion_difference_score
+
+# Proportions of consonants interrupted at 5, 10, and difference score
+#x10 = interruption_C$proportion5
+#x11 = interruption_C$proportion10
+#x12 = interruption_C$proportion_difference_score
+```
+
+```{r}
+# Proportions of babbling containing consonants at 5, 10, and difference score
+y1 = maturity$Cproportion5
+y2 = maturity$Cproportion10
+y3 = maturity$maturity_difference_score
+```
+
+```{r}
+cor.test(x2, y3, method = "pearson")
+```
+
+
+```{r}
+```
+
+
+```{r}
+#cor.test(x10, y2, method = "pearson")
+```
+
+```{r}
+#cor.test(x11, y2, method = "pearson")
+```
+
+```{r}
+#cor.test(x10, y3, method = "pearson")
+```
+
+```{r}
+#cor.test(x11, y3, method = "pearson")
+```
+
